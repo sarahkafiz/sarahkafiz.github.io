@@ -1,6 +1,5 @@
 /* ============================================================
-   Portfolio de PRENOM NOM
-   Style : épuré, élégant, fond clair, typographie soignée
+   Portfolio de Sarah KAFIZ 
    ============================================================ */
 
 :root {
@@ -25,12 +24,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* En-tête : nom en majuscules espacées, nav discrète */
+/* En-tête */
 header.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6rem 8rem 1.6rem 3rem;
+  padding: 1.6rem 3rem;
   border-bottom: 1px solid var(--color-line);
   flex-wrap: wrap;
   gap: 1rem;
@@ -46,6 +45,13 @@ header.site-header .brand {
   font-weight: 600;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 nav.main-nav a {
   color: var(--color-text-dim);
   text-decoration: none;
@@ -56,19 +62,16 @@ nav.main-nav a {
   transition: color 0.15s ease;
 }
 
+nav.main-nav a:first-child {
+  margin-left: 0;
+}
+
 nav.main-nav a:hover,
 nav.main-nav a.current {
   color: var(--color-accent);
 }
 
-/* Sélecteur de langue : liste déroulante, position fixe */
-#lang-switcher {
-  position: fixed;
-  top: 1.4rem;
-  right: 1.6rem;
-  z-index: 999;
-}
-
+/* Sélecteur de langue  */
 #lang-switcher select {
   border: 1px solid var(--color-line);
   background: var(--color-bg);
@@ -128,4 +131,189 @@ footer {
   letter-spacing: 0.05em;
   padding: 3rem 0 2rem;
   text-transform: uppercase;
+}
+
+/* --------------------------------------------------------------
+   Bloc d'intro générique (accueil, etc.)
+   -------------------------------------------------------------- */
+.intro-block {
+  padding-bottom: 1.5rem;
+}
+
+.contact-line {
+  font-size: 0.92rem;
+  color: var(--color-text-dim);
+  margin-top: 1.2rem;
+}
+
+/* --------------------------------------------------------------
+   Vidéo
+   -------------------------------------------------------------- */
+.video-frame {
+  border: 1px solid var(--color-line);
+  padding: 0.5rem;
+  background: var(--color-card);
+}
+
+iframe.video-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border: none;
+}
+
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.video-list .video-item-title {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--color-text-dim);
+  margin: 0 0 0.5rem;
+}
+
+/* --------------------------------------------------------------
+   Grille de cases (modules, TP, projets)
+   -------------------------------------------------------------- */
+.grid-cases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+.case-item {
+  display: block;
+  border: 1px solid var(--color-line);
+  padding: 1.6rem 1.4rem;
+  text-decoration: none;
+  color: var(--color-text);
+  background: var(--color-card);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+a.case-item:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+.case-item .case-label {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+  border-bottom: none;
+}
+
+.case-item .case-desc {
+  font-size: 0.88rem;
+  color: var(--color-text-dim);
+  margin: 0;
+}
+
+.case-item.disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.case-item .case-status {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------
+   Timeline : apparition progressive au scroll
+   -------------------------------------------------------------- */
+.timeline {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-left: 2rem;
+  border-left: 1px solid var(--color-line);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2.6rem;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.timeline-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -2.42rem;
+  top: 0.3rem;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.timeline-item .timeline-date {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 0.95rem;
+  color: var(--color-accent);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.3rem;
+}
+
+.timeline-item .timeline-title {
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+}
+
+.timeline-item .timeline-desc {
+  color: var(--color-text-dim);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+/* --------------------------------------------------------------
+   Liste simple de cartes (compétences, langues, intérêts)
+   -------------------------------------------------------------- */
+.card-list p {
+  border-bottom: 1px solid var(--color-line);
+  padding: 0.7rem 0;
+  margin: 0;
+  font-size: 0.94rem;
+}
+
+.card-list p:last-child {
+  border-bottom: none;
+}
+
+/* --------------------------------------------------------------
+   RTL : adaptation pour l'arabe
+   -------------------------------------------------------------- */
+html[dir="rtl"] nav.main-nav a {
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+html[dir="rtl"] .timeline {
+  padding-left: 0;
+  padding-right: 2rem;
+  border-left: none;
+  border-right: 1px solid var(--color-line);
+}
+
+html[dir="rtl"] .timeline-item::before {
+  left: auto;
+  right: -2.42rem;
 }
