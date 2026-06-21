@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+
+    <!-- Navigation commune pour toutes les pages-->
+    <block id="nav_accueil">
+        <text lang="fr">Accueil</text>
+        <text lang="en">Home</text>
+        <text lang="ar">الرئيسية</text>
+    </block>
+    <block id="nav_cv">
+        <text lang="fr">CV</text>
+        <text lang="en">Resume</text>
+        <text lang="ar">السيرة الذاتية</text>
+    </block>
+    <block id="nav_travaux">
+        <text lang="fr">Travaux</text>
+        <text lang="en">Projects</text>
+        <text lang="ar">أعمالي</text>
+    </block>
+    <block id="nav_competences">
+        <text lang="fr">Compétences</text>
+        <text lang="en">Skills</text>
+        <text lang="ar">المهارات</text>
+    </block>
+    <block id="footer_text">
+        <text lang="fr">Portfolio — FR / EN / AR</text>
+        <text lang="en">Portfolio — FR / EN / AR</text>
+        <text lang="ar">بورتفوليو — FR / EN / AR</text>
+    </block>
+
+    <!-- Page d'accueil-->
+    <block id="home_title_tag">
+        <text lang="fr">Portfolio de Sarah KAFIZ</text>
+        <text lang="en">Portfolio of Sarah KAFIZ</text>
+        <text lang="ar">بورتفوليو صارة كافيز</text>
+    </block>
+    <block id="home_name">
+        <text lang="fr">Sarah KAFIZ</text>
+        <text lang="en">Sarah KAFIZ</text>
+        <text lang="ar">صارة كافيز</text>
+    </block>
+    <block id="home_subtitle">
+        <text lang="fr">Étudiante ingénieure en informatique</text>
+        <text lang="en">Computer engineering student </text>
+        <text lang="ar">طالبة هندسة معلوماتية</text>
+    </block>
+    <block id="home_intro">
+        <text lang="fr">Bienvenue sur mon portfolio. Je suis étudiante ingénieure en informatique à SUP Galilée, en alternance chez SNCF Voyageurs en tant que développeuse logiciel.</text>
+        <text lang="en">Welcome to my portfolio. I am a computer engineering student at SUP Galilee, working as an apprentice at SNCF Voyageurs as a software Developer.</text>
+        <text lang="ar">.أهلاً بكم في معرض أعمالي. أنا طالبة هندسة حاسوب في جامعة سوب غاليلي، وأعمل بدوام جزئي في شركة سنسف للمسافرين كمطورة برامج</text>
+    </block>
+    <block id="home_section_presentation">
+        <text lang="fr">Présentation</text>
+        <text lang="en">Presentation</text>
+        <text lang="ar">تقديم</text>
+    </block>
+    <block id="home_section_apercu">
+        <text lang="fr">Aperçu</text>
+        <text lang="en">Overview</text>
+        <text lang="ar">نظرة عامة</text>
+    </block>
+    <block id="home_apercu_text">
+        <text lang="fr">Retrouvez mon CV ainsi que mes travaux pratiques dans différents modules.</text>
+        <text lang="en">You can find my CV as well as my practical work in different modules.</text>
+        <text lang="ar">يمكنكم الاطلاع على سيرتي الذاتية بالإضافة إلى أعمالي العملية في وحدات دراسية مختلفة</text>
+    </block>
+    <block id="home_link_cv">
+        <text lang="fr">mon CV</text>
+        <text lang="en">my resume</text>
+        <text lang="ar">سيرتي الذاتية</text>
+    </block>
+    <block id="home_link_travaux">
+        <text lang="fr">travaux pratiques</text>
+        <text lang="en">labs</text>
+        <text lang="ar">أعمالي التطبيقية</text>
+    </block>
+
+    <!-- Page du CV-->
+    <block id="cv_title_tag">
+        <text lang="fr">CV — Sarah KAFIZ</text>
+        <text lang="en">Resume — Sarah KAFIZ</text>
+        <text lang="ar">السيرة الذاتية - صارة كافيز </text>
+    </block>
+    <block id="cv_h1">
+        <text lang="fr">Parcours</text>
+        <text lang="en">Background</text>
+        <text lang="ar">المسار المهني والدراسي</text>
+    </block>
+    <block id="cv_subtitle">
+        <text lang="fr">Expériences professionnelles et formation</text>
+        <text lang="en">Professional experience and education</text>
+        <text lang="ar">الخبرات المهنية والتكوين الجامعي</text>
+    </block>
+
+    <block id="cv_section_experience">
+        <text lang="fr">Expérience professionnelle</text>
+        <text lang="en">Professional experience</text>
+        <text lang="ar">الخبرة المهنية</text>
+    </block>
+
+    <block id="cv_exp1_date">
+        <text lang="fr">2025 — Présent</text>
+        <text lang="en">2025 — Present</text>
+        <text lang="ar">2025 — حتى الآن</text>
+    </block>
+    <block id="cv_exp1_title">
+        <text lang="fr">Alternante en développement logiciel — SNCF Voyageurs</text>
+        <text lang="en">Software Development Apprentice — SNCF Voyageurs</text>
+        <text lang="ar">متدربة في تطوير البرمجيات — SNCF Voyageurs</text>
+    </block>
+    <block id="cv_exp1_desc">
+        <text lang="fr">Contexte : développement d'outils pour soutenir le processus de validation et de qualification du nouveau système d'exploitation ferroviaire NExTEO EOLE. Responsabilités principales : conception d'outils de support à l'écriture de scripts de test (centralisation de l'information, amélioration de la structure et de la cohérence) ; optimisation de l'exécution des tests (développement de solutions assurant le bon enchaînement des scénarios de test sur la plateforme et contribuant à l'optimisation du temps pour les équipes de validation) ; analyse des résultats (mise en place d'outils simplifiant l'extraction, la lecture et l'analyse des logs afin d'accélérer la prise de décision dans le processus de validation des tests). Technologies : Python, Perl, C, Java, Kotlin.</text>
+        <text lang="en">Context: development of tools to support the validation and qualification process of the new operating system for trains AAA. Main responsibilities: Test Script Support tools (design of tools centralizing the information required for writing test scripts and improving their structure and consistency); Test Execution Optimization (development of solutions ensuring the proper sequencing of test scenarios on the platform and contributing to time optimization for validation teams); Results Analysis (implementation of tools to simplify log extraction, reading, and analysis in order to speed up decision-making in the test validation process). Technologies: Python, Perl, C, Java, Kotlin.</text>
+        <text lang="ar">        السياق: تطوير أدوات لدعم عملية التحقق والتأهيل لنظام التشغيل الجديد للقطارات ناكتيو. المسؤوليات الرئيسية: أدوات دعم كتابة سكريبتات الاختبار (تصميم أدوات لتجميع المعلومات اللازمة وتحسين بنيتها واتساقها)؛ تحسين تنفيذ الاختبارات (تطوير حلول تضمن التسلسل الصحيح لسيناريوهات الاختبار وتساهم في تحسين الوقت لفرق التحقق)؛ تحليل النتائج (إنشاء أدوات لتبسيط استخراج وقراءة وتحليل السجلات لتسريع اتخاذ القرار). لغات البرمجة: بايثون، بيرل، سي، جافا، كوتلن.</text>
+    </block>
+
+    <block id="cv_exp2_date">
+        <text lang="fr">2024 — 2025</text>
+        <text lang="en">2024 — 2025</text>
+        <text lang="ar">2024 — 2025</text>
+    </block>
+    <block id="cv_exp2_title">
+        <text lang="fr">Alternance en développement Full Stack — Bettane et Desseauve </text>
+        <text lang="en">Full Stack Development Apprentice — Bettane and Desseauve</text>
+        <text lang="ar">متدرب تطوير تطبيقات الويب المتكاملة - بيتاني وديسوف</text>
+    </block>
+    <block id="cv_exp2_desc">
+        <text lang="fr">Développement et maintenance d'un écosystème d'outils métier (bases de données, applications sur mesure, outils tiers : ElasticSearch, Talend...). Écoute et analyse des besoins des utilisateurs pour créer des solutions adaptées. Conception : participation aux choix techniques et à l'architecture des projets. Développement complet — Backend : APIs REST avec Java Spring ; Frontend : sites web interactifs (Joomla, WordPress) ; Mobile : applications natives Android pour articles et concours de dégustation interactifs (Kotlin). Mise en production : déploiement et maintenance via un environnement containerisé (Docker, Rancher).</text>
+        <text lang="en">Development and maintenance of a business tools ecosystem (databases, custom applications, third-party tools: ElasticSearch, Talend...). Listening to and analyzing user needs to create suitable solutions. Design: participation in technical choices and project architecture. Full development — Backend: REST APIs with Java Spring; Frontend: interactive websites (Joomla, WordPress); Mobile: native Android applications for articles and interactive tasting contests (Kotlin). Production deployment: deployment and maintenance via a containerized environment (Docker, Rancher).</text>
+        <text lang="ar">تطوير وصيانة منظومة أدوات مهنية (قواعد بيانات، تطبيقات مخصصة، أدوات خارجية: ElasticSearch، Talend...). الاستماع لاحتياجات المستخدمين وتحليلها لإنشاء حلول مناسبة. التصميم: المشاركة في الخيارات التقنية وهيكلة المشاريع. التطوير الكامل — الواجهة الخلفية: واجهات REST API باستخدام Java Spring؛ الواجهة الأمامية: مواقع تفاعلية (Joomla، WordPress)؛ تطبيقات الهاتف: تطبيقات أندرويد أصلية (Kotlin). النشر: النشر والصيانة عبر بيئة معبأة بالحاويات (Docker، Rancher).</text>
+    </block>
+
+    <block id="cv_section_formation">
+        <text lang="fr">Formation</text>
+        <text lang="en">Education</text>
+        <text lang="ar">التكوين الجامعي</text>
+    </block>
+
+    <block id="cv_edu1_date">
+        <text lang="fr">2024 — 2027</text>
+        <text lang="en">2024 — 2027</text>
+        <text lang="ar">2024 — 2027</text>
+    </block>
+    <block id="cv_edu1_title">
+        <text lang="fr">École d'ingénieur en informatique — Sup Galilée</text>
+        <text lang="en">Computer Engineering School — Sup Galilée</text>
+        <text lang="ar">مدرسة مهندسين في المعلوماتية — Sup Galilée</text>
+    </block>
+    <block id="cv_edu1_desc">
+        <text lang="fr">Formation complète en informatique : bases de données, programmation orientée objet, fonctionnelle et impérative, modélisation UML, réseaux, etc.</text>
+        <text lang="en">Comprehensive computer science training: databases, object-oriented, functional and imperative programming, UML modeling, networks, etc.</text>
+        <text lang="ar">تكوين شامل في المعلوماتية: قواعد البيانات، البرمجة الكائنية والوظيفية والإجرائية، نمذجة UML، الشبكات، إلخ.</text>
+    </block>
+
+    <block id="cv_edu2_date">
+        <text lang="fr">2023 — 2024</text>
+        <text lang="en">2023 — 2024</text>
+        <text lang="ar">2023 — 2024</text>
+    </block>
+    <block id="cv_edu2_title">
+        <text lang="fr">Licence Informatique, 2e année — Université Sorbonne Paris Nord</text>
+        <text lang="en">Bachelor's in Computer Science, 2nd year — Sorbonne Paris Nord University</text>
+        <text lang="ar">ليسانس معلوماتية، السنة الثانية — جامعة سوربون باريس نور</text>
+    </block>
+    <block id="cv_edu2_desc">
+        <text lang="fr">Structures de données, algorithmique avancée, logique, architecture des ordinateurs, CASL, etc.</text>
+        <text lang="en">Data structures, advanced algorithms, logic, computer architecture, CASL, etc.</text>
+        <text lang="ar">بنى المعطيات، الخوارزميات المتقدمة، المنطق، هندسة الحواسيب، CASL، إلخ.</text>
+    </block>
+
+    <block id="cv_edu3_date">
+        <text lang="fr">2022 — 2023</text>
+        <text lang="en">2022 — 2023</text>
+        <text lang="ar">2022 — 2023</text>
+    </block>
+    <block id="cv_edu3_title">
+        <text lang="fr">Double licence Mathématiques-Informatique, 1ère année — Université Sorbonne Paris Nord</text>
+        <text lang="en">Dual Bachelor's in Mathematics-Computer Science, 1st year — Sorbonne Paris Nord University</text>
+        <text lang="ar">ليسانس مزدوج رياضيات-معلوماتية، السنة الأولى — جامعة سوربون باريس نور</text>
+    </block>
+    <block id="cv_edu3_desc">
+        <text lang="fr">Formation pluridisciplinaire alliant rigueur mathématique et logique informatique.</text>
+        <text lang="en">Multidisciplinary training combining mathematical rigor and computer logic.</text>
+        <text lang="ar">تكوين متعدد التخصصات يجمع بين الدقة الرياضية والمنطق المعلوماتي.</text>
+    </block>
+
+    <block id="cv_edu4_date">
+        <text lang="fr">2021 — 2022</text>
+        <text lang="en">2021 — 2022</text>
+        <text lang="ar">2021 — 2022</text>
+    </block>
+    <block id="cv_edu4_title">
+        <text lang="fr">PASS — Parcours d'Accès Spécifique Santé, Université de Versailles Saint-Quentin-en-Yvelines</text>
+        <text lang="en">PASS — Specific Health Studies Access Pathway, University of Versailles Saint-Quentin-en-Yvelines</text>
+        <text lang="ar">PASS — مسار الوصول الخاص للدراسات الصحية، جامعة فرساي سان كنتان أون إيفلين</text>
+    </block>
+    <block id="cv_edu4_desc">
+        <text lang="fr">Parcours d'accès aux études de médecine.</text>
+        <text lang="en">Pathway to medical studies.</text>
+        <text lang="ar">مسار الوصول إلى دراسات الطب.</text>
+    </block>
+
+    <block id="cv_edu5_date">
+        <text lang="fr">2020 — 2021</text>
+        <text lang="en">2020 — 2021</text>
+        <text lang="ar">2020 — 2021</text>
+    </block>
+    <block id="cv_edu5_title">
+        <text lang="fr">Baccalauréat général — Lycée Taos Amrouche, Algérie</text>
+        <text lang="en">General Baccalaureate — Taos Amrouche High School, Algeria</text>
+        <text lang="ar">البكالوريا العامة — ثانوية تاوس عمروش، الجزائر</text>
+    </block>
+    <block id="cv_edu5_desc">
+        <text lang="fr">Mention Très Bien.</text>
+        <text lang="en">Highest Honors.</text>
+        <text lang="ar">بميزة حسن جدًا.</text>
+    </block>
+
+    <block id="cv_section_projets">
+        <text lang="fr">Projets</text>
+        <text lang="en">Projects</text>
+        <text lang="ar">المشاريع</text>
+    </block>
+    <block id="cv_proj1_title">
+        <text lang="fr">Octopunks</text>
+        <text lang="en">Octopunks</text>
+        <text lang="ar">Octopunks</text>
+    </block>
+    <block id="cv_proj1_desc">
+        <text lang="fr">Clone du jeu Exapunks en Java/Swing.</text>
+        <text lang="en">Clone of the game Exapunks, built in Java/Swing.</text>
+        <text lang="ar">نسخة من لعبة Exapunks بلغة Java/Swing.</text>
+    </block>
+    <block id="cv_proj2_title">
+        <text lang="fr">WikiComptines</text>
+        <text lang="en">WikiComptines</text>
+        <text lang="ar">WikiComptines</text>
+    </block>
+    <block id="cv_proj2_desc">
+        <text lang="fr">Application client-serveur avec protocole personnalisé WCP en C.</text>
+        <text lang="en">Client-server application with a custom WCP protocol, written in C.</text>
+        <text lang="ar">تطبيق عميل-خادم باستخدام بروتوكول مخصص WCP بلغة C.</text>
+    </block>
+    <block id="cv_proj3_title">
+        <text lang="fr">Sac à dos 0/1</text>
+        <text lang="en">0/1 Knapsack</text>
+        <text lang="ar">حقيبة الظهر 0/1</text>
+    </block>
+    <block id="cv_proj3_desc">
+        <text lang="fr">Algorithmes Backtracking, Programmation Dynamique, Glouton (C/Python).</text>
+        <text lang="en">Backtracking, Dynamic Programming, Greedy algorithms (C/Python).</text>
+        <text lang="ar">خوارزميات Backtracking والبرمجة الديناميكية والخوارزميات الجشعة (C/Python).</text>
+    </block>
+    <block id="cv_proj4_title">
+        <text lang="fr">Tautologie</text>
+        <text lang="en">Tautology</text>
+        <text lang="ar">المتطابقة المنطقية</text>
+    </block>
+    <block id="cv_proj4_desc">
+        <text lang="fr">Vérification de tautologies en programmation fonctionnelle, en OCaml.</text>
+        <text lang="en">Tautology checking using functional programming, in OCaml.</text>
+        <text lang="ar">التحقق من المتطابقات المنطقية بالبرمجة الوظيفية، بلغة OCaml.</text>
+    </block>
+
+    <block id="cv_section_competences">
+        <text lang="fr">Compétences</text>
+        <text lang="en">Skills</text>
+        <text lang="ar">المهارات</text>
+    </block>
+    <block id="cv_comp_langages_label">
+        <text lang="fr">Langages</text>
+        <text lang="en">Languages</text>
+        <text lang="ar">لغات البرمجة</text>
+    </block>
+    <block id="cv_comp_langages_value">
+        <text lang="fr">C, Java, Python, JavaScript, PHP, Kotlin, OCaml, CASL, COQ, LaTeX</text>
+        <text lang="en">C, Java, Python, JavaScript, PHP, Kotlin, OCaml, CASL, COQ, LaTeX</text>
+        <text lang="ar">C, Java, Python, JavaScript, PHP, Kotlin, OCaml, CASL, COQ, LaTeX</text>
+    </block>
+    <block id="cv_comp_web_label">
+        <text lang="fr">Web</text>
+        <text lang="en">Web</text>
+        <text lang="ar">الويب</text>
+    </block>
+    <block id="cv_comp_web_value">
+        <text lang="fr">HTML, CSS</text>
+        <text lang="en">HTML, CSS</text>
+        <text lang="ar">HTML, CSS</text>
+    </block>
+    <block id="cv_comp_frameworks_label">
+        <text lang="fr">Frameworks</text>
+        <text lang="en">Frameworks</text>
+        <text lang="ar">إطارات العمل</text>
+    </block>
+    <block id="cv_comp_frameworks_value">
+        <text lang="fr">Spring, Joomla, WordPress</text>
+        <text lang="en">Spring, Joomla, WordPress</text>
+        <text lang="ar">Spring, Joomla, WordPress</text>
+    </block>
+    <block id="cv_comp_outils_label">
+        <text lang="fr">Outils</text>
+        <text lang="en">Tools</text>
+        <text lang="ar">الأدوات</text>
+    </block>
+    <block id="cv_comp_outils_value">
+        <text lang="fr">Git, IntelliJ, Docker, Rancher</text>
+        <text lang="en">Git, IntelliJ, Docker, Rancher</text>
+        <text lang="ar">Git, IntelliJ, Docker, Rancher</text>
+    </block>
+    <block id="cv_comp_systemes_label">
+        <text lang="fr">Systèmes</text>
+        <text lang="en">Systems</text>
+        <text lang="ar">أنظمة التشغيل</text>
+    </block>
+    <block id="cv_comp_systemes_value">
+        <text lang="fr">Windows, Linux</text>
+        <text lang="en">Windows, Linux</text>
+        <text lang="ar">Windows, Linux</text>
+    </block>
+
+    <block id="cv_section_langues">
+        <text lang="fr">Langues</text>
+        <text lang="en">Spoken languages</text>
+        <text lang="ar">اللغات</text>
+    </block>
+    <block id="cv_lang_anglais">
+        <text lang="fr">Anglais — Niveau avancé</text>
+        <text lang="en">English — Advanced level</text>
+        <text lang="ar">الإنجليزية — مستوى متقدم</text>
+    </block>
+    <block id="cv_lang_francais">
+        <text lang="fr">Français — Bilingue</text>
+        <text lang="en">French — Bilingual</text>
+        <text lang="ar">الفرنسية — لغة ثنائية</text>
+    </block>
+
+    <block id="cv_section_interets">
+        <text lang="fr">Centres d'intérêt</text>
+        <text lang="en">Interests</text>
+        <text lang="ar">الاهتمامات</text>
+    </block>
+    <block id="cv_interet_sport">
+        <text lang="fr">Sport — 6 ans de basketball</text>
+        <text lang="en">Sport — 6 years of basketball</text>
+        <text lang="ar">الرياضة — 6 سنوات من كرة السلة</text>
+    </block>
+    <block id="cv_interet_assoc">
+        <text lang="fr">Associatif — 2 ans de scoutisme</text>
+        <text lang="en">Volunteering — 2 years as a scout</text>
+        <text lang="ar">العمل التطوعي — سنتان في الحركة الكشفية</text>
+    </block>
+
+    <!--Page travaux-->
+    <block id="travaux_title_tag">
+        <text lang="fr">Travaux — PRENOM NOM</text>
+        <text lang="en">Projects — FIRSTNAME LASTNAME</text>
+        <text lang="ar">الأعمال — PRENOM NOM</text>
+    </block>
+    <block id="travaux_h1">
+        <text lang="fr">Mes travaux</text>
+        <text lang="en">My projects</text>
+        <text lang="ar">أعمالي</text>
+    </block>
+    <block id="travaux_subtitle">
+        <text lang="fr">Organisés par module de formation</text>
+        <text lang="en">Organized by training module</text>
+        <text lang="ar">منظمة حسب وحدة التكوين</text>
+    </block>
+
+    <block id="module_ws_name">
+        <text lang="fr">Web sémantique</text>
+        <text lang="en">Semantic Web</text>
+        <text lang="ar">الويب الدلالي</text>
+    </block>
+    <block id="module_ws_desc">
+        <text lang="fr">XML, XSD, XSLT, RDF, RDFa, SPARQL, Unicode — 5 travaux pratiques.</text>
+        <text lang="en">XML, XSD, XSLT, RDF, RDFa, SPARQL, Unicode — 5 labs.</text>
+        <text lang="ar">XML، XSD، XSLT، RDF، RDFa، SPARQL، يونيكود — 5 أعمال تطبيقية.</text>
+    </block>
+    <block id="module_ws_cta">
+        <text lang="fr">Voir les TP →</text>
+        <text lang="en">View the labs →</text>
+        <text lang="ar">عرض الأعمال ←</text>
+    </block>
+
+    <block id="module_devlog_name">
+        <text lang="fr">Développement logiciel</text>
+        <text lang="en">Software Development</text>
+        <text lang="ar">تطوير البرمجيات</text>
+    </block>
+    <block id="module_devlog_desc">
+        <text lang="fr">Contenu à venir.</text>
+        <text lang="en">Content coming soon.</text>
+        <text lang="ar">المحتوى قادم قريبًا.</text>
+    </block>
+
+    <block id="module_fullstack_name">
+        <text lang="fr">Développement Full Stack</text>
+        <text lang="en">Full Stack Development</text>
+        <text lang="ar">تطوير الواجهات الكاملة</text>
+    </block>
+    <block id="module_fullstack_desc">
+        <text lang="fr">Contenu à venir.</text>
+        <text lang="en">Content coming soon.</text>
+        <text lang="ar">المحتوى قادم قريبًا.</text>
+    </block>
+
+    <block id="module_status_avenir">
+        <text lang="fr">À venir</text>
+        <text lang="en">Coming soon</text>
+        <text lang="ar">قريبًا</text>
+    </block>
+
+    <!-- Les TPs de web semantique-->
+    <block id="ws_title_tag">
+        <text lang="fr">Web sémantique — Travaux — Sarah KAFIZ</text>
+        <text lang="en">Semantic Web — Projects — Sarah KAFIZ</text>
+        <text lang="ar">الويب الدلالي — الأعمال — صارة كافيز</text>
+    </block>
+    <block id="ws_back_link">
+        <text lang="fr">← Travaux</text>
+        <text lang="en">← Projects</text>
+        <text lang="ar">→ الأعمال</text>
+    </block>
+    <block id="ws_h1">
+        <text lang="fr">Web sémantique</text>
+        <text lang="en">Semantic Web</text>
+        <text lang="ar">الويب الدلالي</text>
+    </block>
+    <block id="ws_subtitle">
+        <text lang="fr"> enseignants : Jerome Nobecourt et Pascal Vaillant</text>
+        <text lang="en"> instructors: Jerome Nobecourt and Pascal Vaillant</text>
+        <text lang="ar"> الأستاذة: جيروم نبكور و باسكال فايون </text>
+    </block>
+
+    <block id="tp1_name"><text lang="fr">TP1</text><text lang="en">Lab 1</text><text lang="ar">العمل التطبيقي 1</text></block>
+    <block id="tp1_desc">
+        <text lang="fr">XML bien formé et valide, DTD, mise en page CSS, XPath, SVG animé.</text>
+        <text lang="en">Well-formed and valid XML, DTD, CSS layout, XPath, animated SVG.</text>
+        <text lang="ar">XML سليم الصياغة وصحيح، DTD، تنسيق CSS، XPath، رسم SVG متحرك.</text>
+    </block>
+
+    <block id="tp2_name"><text lang="fr">TP2</text><text lang="en">Lab 2</text><text lang="ar">العمل التطبيقي 2</text></block>
+    <block id="tp2_desc">
+        <text lang="fr">Unicode et XSLT : DTD/XSD, transformation XSLT, flux RSS, TMX.</text>
+        <text lang="en">Unicode and XSLT: DTD/XSD, XSLT transformation, RSS feed, TMX.</text>
+        <text lang="ar">يونيكود و XSLT: DTD/XSD، تحويل XSLT، تغذية RSS، TMX.</text>
+    </block>
+
+    <block id="tp3_name"><text lang="fr">TP3</text><text lang="en">Lab 3</text><text lang="ar">العمل التطبيقي 3</text></block>
+    <block id="tp3_desc">
+        <text lang="fr">Modélisation RDF et interrogation avec le moteur Corese (SPARQL).</text>
+        <text lang="en">RDF modeling and querying using the Corese engine (SPARQL).</text>
+        <text lang="ar">نمذجة RDF والاستعلام باستخدام محرك Corese (SPARQL).</text>
+    </block>
+
+    <block id="tp4_name"><text lang="fr">TP4</text><text lang="en">Lab 4</text><text lang="ar">العمل التطبيقي 4</text></block>
+    <block id="tp4_desc">
+        <text lang="fr">XML Schema avancé : transcription des débats du Parlement européen.</text>
+        <text lang="en">Advanced XML Schema: transcription of European Parliament debates.</text>
+        <text lang="ar">XML Schema متقدم: محاضر نقاشات البرلمان الأوروبي.</text>
+    </block>
+
+    <block id="tp5_name"><text lang="fr">TP5</text><text lang="en">Lab 5</text><text lang="ar">العمل التطبيقي 5</text></block>
+    <block id="tp5_desc">
+        <text lang="fr">Annotations RDFa (Dublin Core, FOAF) sur mon portfolio.</text>
+        <text lang="en">RDFa annotations (Dublin Core, FOAF) on my portfolio.</text>
+        <text lang="ar">تعليقات RDFa (Dublin Core، FOAF) على بورتفوليو.</text>
+    </block>
+
+    <!-- Page TP1-->
+    <block id="tp1_title_tag">
+        <text lang="fr">TP1 — XML bien formé et valide — PRENOM NOM</text>
+        <text lang="en">Lab 1 — Well-formed and valid XML — FIRSTNAME LASTNAME</text>
+        <text lang="ar">العمل التطبيقي 1 — XML سليم وصحيح — PRENOM NOM</text>
+    </block>
+    <block id="tp1_h1">
+        <text lang="fr">TP1 — Bien formé, bien valide</text>
+        <text lang="en">Lab 1 — Well-formed, valid</text>
+        <text lang="ar">العمل التطبيقي 1 — صياغة سليمة وصحيحة</text>
+    </block>
+    <block id="tp1_intro">
+        <text lang="fr">Ce premier TP m'a permis de manipuler les bases du XML : correction de documents mal formés, écriture d'une DTD commune à plusieurs fichiers, mise en page d'un catalogue XML avec CSS, requêtes XPath, et création d'un SVG animé.</text>
+        <text lang="en">This first lab introduced me to the basics of XML: fixing malformed documents, writing a DTD shared across multiple files, styling an XML catalog with CSS, XPath queries, and creating an animated SVG.</text>
+        <text lang="ar">سمح لي هذا العمل التطبيقي الأول بالتعرف على أساسيات XML: تصحيح ملفات غير سليمة الصياغة، كتابة DTD مشتركة، تنسيق كتالوج XML باستخدام CSS، استعلامات XPath، وإنشاء رسم SVG متحرك.</text>
+    </block>
+    <block id="tp1_section_xml">
+        <text lang="fr">1. XML bien formé et DTD</text>
+        <text lang="en">1. Well-formed XML and DTD</text>
+        <text lang="ar">1. XML سليم الصياغة و DTD</text>
+    </block>
+    <block id="tp1_section_xml_text">
+        <text lang="fr">J'ai corrigé plusieurs fichiers XML mal formés (balises non fermées, mal imbriquées, ou texte hors structure) en les validant avec xmllint. J'ai ensuite écrit une DTD commune capable de valider les quatre versions corrigées du document.</text>
+        <text lang="en">I fixed several malformed XML files (unclosed tags, improperly nested elements, or stray text) by validating them with xmllint. I then wrote a shared DTD able to validate all four corrected versions of the document.</text>
+        <text lang="ar">قمت بتصحيح عدة ملفات XML غير سليمة الصياغة (وسوم غير مغلقة، تداخل غير صحيح، أو نص خارج البنية) من خلال التحقق منها باستخدام xmllint. ثم كتبت DTD مشتركة قادرة على التحقق من صحة النسخ الأربع المصححة من الوثيقة.</text>
+    </block>
+    <block id="tp1_section_css">
+        <text lang="fr">2. CSS appliqué à un fichier XML</text>
+        <text lang="en">2. CSS applied to an XML file</text>
+        <text lang="ar">2. تطبيق CSS على ملف XML</text>
+    </block>
+    <block id="tp1_section_css_text">
+        <text lang="fr">J'ai créé un fichier XML listant les albums de « La compagnie des glaces » de Georges-Jean Arnaud (titre, vignette, résumé, lien vers la fiche), puis une feuille de style CSS pour l'afficher directement comme une page XHTML5 valide, triée par numéro de tome.</text>
+        <text lang="en">I created an XML file listing the volumes of "La compagnie des glaces" by Georges-Jean Arnaud (title, thumbnail, summary, link), then a CSS stylesheet to display it directly as valid XHTML5, sorted by volume number.</text>
+        <text lang="ar">أنشأت ملف XML يسرد ألبومات «La compagnie des glaces» لجورج-جان أرنو (العنوان، الصورة المصغرة، الملخص، الرابط)، ثم ورقة أنماط CSS لعرضها مباشرة كصفحة XHTML5 صحيحة، مرتبة بحسب رقم الجزء.</text>
+    </block>
+    <block id="tp1_section_xpath">
+        <text lang="fr">3. Requêtes XPath</text>
+        <text lang="en">3. XPath queries</text>
+        <text lang="ar">3. استعلامات XPath</text>
+    </block>
+    <block id="tp1_section_xpath_text">
+        <text lang="fr">À partir du fichier XML précédent, j'ai utilisé un testeur XPath en ligne pour : lister tous les titres, compter le nombre de tomes, compter les titres contenant « glace », isoler les albums évoquant la banquise, et compter les albums par nombre de mots dans le titre.</text>
+        <text lang="en">Using the previous XML file, I used an online XPath tester to: list all titles, count the number of volumes, count titles containing "glace", isolate volumes mentioning ice fields, and count volumes by number of words in the title.</text>
+        <text lang="ar">باستخدام ملف XML السابق، استعملت أداة اختبار XPath عبر الإنترنت لـ: سرد جميع العناوين، عد عدد الأجزاء، عد العناوين التي تحتوي على «glace»، عزل الألبومات التي تتحدث عن الجليد، وعد الألبومات بحسب عدد كلمات العنوان.</text>
+    </block>
+    <block id="tp1_section_svg">
+        <text lang="fr">4. SVG animé</text>
+        <text lang="en">4. Animated SVG</text>
+        <text lang="ar">4. رسم SVG متحرك</text>
+    </block>
+    <block id="tp1_section_svg_text">
+        <text lang="fr">J'ai réalisé un faire-part SVG animé (durée minimale de 5 secondes) annonçant la création du groupe de projet, validé sur le validateur W3C.</text>
+        <text lang="en">I created an animated SVG announcement (at least 5 seconds long) announcing the creation of the project group, validated with the W3C validator.</text>
+        <text lang="ar">أنشأت بطاقة إعلان SVG متحركة (مدتها 5 ثوانٍ على الأقل) للإعلان عن تأسيس فريق المشروع، تم التحقق منها عبر أداة التحقق W3C.</text>
+    </block>
+
+    <!-- Page TP2-->
+    <block id="tp2_title_tag">
+        <text lang="fr">TP2 — Unicode et XSLT — PRENOM NOM</text>
+        <text lang="en">Lab 2 — Unicode and XSLT — FIRSTNAME LASTNAME</text>
+        <text lang="ar">العمل التطبيقي 2 — يونيكود و XSLT — PRENOM NOM</text>
+    </block>
+    <block id="tp2_h1">
+        <text lang="fr">TP2 — Unicode et XSLT</text>
+        <text lang="en">Lab 2 — Unicode and XSLT</text>
+        <text lang="ar">العمل التطبيقي 2 — يونيكود و XSLT</text>
+    </block>
+    <block id="tp2_intro">
+        <text lang="fr">Ce TP combine la modélisation de données XML (DTD, XSD avec contraintes de clé) et leur transformation visuelle avec XSLT 1.0, sur trois cas : une liste d'enseignants, un flux RSS, et des documents multilingues au format TMX.</text>
+        <text lang="en">This lab combines XML data modeling (DTD, XSD with key constraints) and visual transformation with XSLT 1.0, applied to three cases: a teacher list, an RSS feed, and multilingual TMX documents.</text>
+        <text lang="ar">يجمع هذا العمل التطبيقي بين نمذجة بيانات XML (DTD، XSD مع قيود المفاتيح) وتحويلها بصريًا باستخدام XSLT 1.0، في ثلاث حالات: قائمة أساتذة، تغذية RSS، ووثائق متعددة اللغات بصيغة TMX.</text>
+    </block>
+    <block id="tp2_section_schema">
+        <text lang="fr">1. DTD et XML Schema</text>
+        <text lang="en">1. DTD and XML Schema</text>
+        <text lang="ar">1. DTD و XML Schema</text>
+    </block>
+    <block id="tp2_section_schema_text">
+        <text lang="fr">J'ai créé une DTD et un XML Schema pour modéliser une liste d'enseignants, puis un second schéma pour une formation composée de modules (code, intitulé, crédits ECTS) reliés à des enseignants — avec une contrainte de clé garantissant que chaque enseignant cité dans un module existe bien dans la liste des enseignants.</text>
+        <text lang="en">I created a DTD and an XML Schema to model a list of teachers, then a second schema for a curriculum made up of modules (code, title, ECTS credits) linked to teachers — with a key constraint ensuring every teacher referenced in a module actually exists in the teacher list.</text>
+        <text lang="ar">أنشأت DTD و XML Schema لنمذجة قائمة أساتذة، ثم مخططًا ثانيًا لتكوين مكوّن من وحدات (رمز، عنوان، نقاط ECTS) مرتبطة بأساتذة — مع قيد مفتاح يضمن أن كل أستاذ مذكور في وحدة موجود فعلاً في قائمة الأساتذة.</text>
+    </block>
+    <block id="tp2_section_xslt">
+        <text lang="fr">2. Transformation XSLT</text>
+        <text lang="en">2. XSLT transformation</text>
+        <text lang="ar">2. تحويل XSLT</text>
+    </block>
+    <block id="tp2_section_xslt_text">
+        <text lang="fr">J'ai écrit une feuille XSLT affichant la liste des enseignants sous forme de tableau directement dans le navigateur, puis une seconde feuille XSLT transformant un flux RSS (actualités du Monde) en grille de zones rectangulaires (titre, image, description, date).</text>
+        <text lang="en">I wrote an XSLT stylesheet displaying the teacher list as a table directly in the browser, then a second XSLT stylesheet transforming an RSS feed (Le Monde news) into a grid of rectangular boxes (title, image, description, date).</text>
+        <text lang="ar">كتبت ورقة أسلوب XSLT تعرض قائمة الأساتذة في شكل جدول مباشرة في المتصفح، ثم ورقة ثانية تحوّل تغذية RSS (أخبار صحيفة لوموند) إلى شبكة من المربعات (العنوان، الصورة، الوصف، التاريخ).</text>
+    </block>
+    <block id="tp2_section_tmx">
+        <text lang="fr">3. Documents multilingues (TMX)</text>
+        <text lang="en">3. Multilingual documents (TMX)</text>
+        <text lang="ar">3. وثائق متعددة اللغات (TMX)</text>
+    </block>
+    <block id="tp2_section_tmx_text">
+        <text lang="fr">À partir d'un corpus DGT-TM (mémoire de traduction au format TMX), j'ai ajouté une liste de 3 langues prioritaires dans l'en-tête du document, puis écrit une feuille XSLT affichant le texte aligné par blocs de trois lignes, une par langue choisie.</text>
+        <text lang="en">Using a DGT-TM corpus (translation memory in TMX format), I added a list of 3 priority languages in the document header, then wrote an XSLT stylesheet displaying the text aligned in blocks of three lines, one per selected language.</text>
+        <text lang="ar">باستخدام مجموعة بيانات DGT-TM (ذاكرة ترجمة بصيغة TMX)، أضفت قائمة من 3 لغات ذات أولوية في رأس الوثيقة، ثم كتبت ورقة XSLT تعرض النص محاذيًا في مجموعات من ثلاثة أسطر، سطر لكل لغة مختارة.</text>
+    </block>
+
+    <!-- Page TP3-->
+    <block id="tp3_title_tag">
+        <text lang="fr">TP3 — RDF et Corese — PRENOM NOM</text>
+        <text lang="en">Lab 3 — RDF and Corese — FIRSTNAME LASTNAME</text>
+        <text lang="ar">العمل التطبيقي 3 — RDF و Corese — PRENOM NOM</text>
+    </block>
+    <block id="tp3_h1">
+        <text lang="fr">TP3 — RDF et Corese</text>
+        <text lang="en">Lab 3 — RDF and Corese</text>
+        <text lang="ar">العمل التطبيقي 3 — RDF و Corese</text>
+    </block>
+    <block id="tp3_intro">
+        <text lang="fr">Ce TP est consacré à la modélisation de données en RDF et à leur interrogation avec le moteur Corese et le langage SPARQL, en reprenant l'univers de « La compagnie des glaces » déjà utilisé au TP1.</text>
+        <text lang="en">This lab focuses on RDF data modeling and querying with the Corese engine and SPARQL, reusing the "La compagnie des glaces" universe already used in Lab 1.</text>
+        <text lang="ar">يركز هذا العمل التطبيقي على نمذجة البيانات بصيغة RDF واستجوابها باستخدام محرك Corese ولغة SPARQL، باستخدام عالم «La compagnie des glaces» المستخدم في العمل التطبيقي 1.</text>
+    </block>
+    <block id="tp3_section_modele">
+        <text lang="fr">1. Modélisation RDF</text>
+        <text lang="en">1. RDF modeling</text>
+        <text lang="ar">1. نمذجة RDF</text>
+    </block>
+    <block id="tp3_section_modele_text">
+        <text lang="fr">J'ai traduit en triplets RDF les informations sur les albums, l'auteur et les personnages de la série (titre, numéro de tome, auteur, description), en choisissant un vocabulaire adapté (schema.org, FOAF) plutôt que d'inventer mes propres propriétés.</text>
+        <text lang="en">I translated information about the volumes, the author, and the characters of the series (title, volume number, author, description) into RDF triples, choosing a suitable vocabulary (schema.org, FOAF) rather than inventing my own properties.</text>
+        <text lang="ar">قمت بترجمة معلومات الألبومات والمؤلف وشخصيات السلسلة (العنوان، رقم الجزء، المؤلف، الوصف) إلى ثلاثيات RDF، باختيار مفردات مناسبة (schema.org، FOAF) بدلاً من ابتكار خصائص خاصة بي.</text>
+    </block>
+    <block id="tp3_section_corese">
+        <text lang="fr">2. Interrogation avec Corese</text>
+        <text lang="en">2. Querying with Corese</text>
+        <text lang="ar">2. الاستعلام باستخدام Corese</text>
+    </block>
+    <block id="tp3_section_corese_text">
+        <text lang="fr">J'ai chargé mon modèle RDF dans le moteur Corese (version standalone) et écrit plusieurs requêtes SPARQL pour retrouver les albums d'un auteur donné, compter les tomes d'une série, ou filtrer les albums par mot-clé dans leur description.</text>
+        <text lang="en">I loaded my RDF model into the Corese engine (standalone version) and wrote several SPARQL queries to retrieve the volumes of a given author, count the volumes in a series, or filter volumes by keyword in their description.</text>
+        <text lang="ar">حمّلت نموذجي RDF في محرك Corese (النسخة المستقلة) وكتبت عدة استعلامات SPARQL لاسترجاع ألبومات مؤلف معين، عد أجزاء سلسلة، أو تصفية الألبومات بحسب كلمة مفتاحية في وصفها.</text>
+    </block>
+
+    <!--Page TP4-->
+    <block id="tp4_title_tag">
+        <text lang="fr">TP4 — Parlement européen — PRENOM NOM</text>
+        <text lang="en">Lab 4 — European Parliament — FIRSTNAME LASTNAME</text>
+        <text lang="ar">العمل التطبيقي 4 — البرلمان الأوروبي — PRENOM NOM</text>
+    </block>
+    <block id="tp4_h1">
+        <text lang="fr">TP4 — Transcription du Parlement européen</text>
+        <text lang="en">Lab 4 — European Parliament transcripts</text>
+        <text lang="ar">العمل التطبيقي 4 — محاضر البرلمان الأوروبي</text>
+    </block>
+    <block id="tp4_intro">
+        <text lang="fr">Ce TP demande de modéliser en XML Schema l'ensemble des données nécessaires pour représenter les débats du Parlement européen, puis de transformer ce XML en HTML côté client avec XSLT 1.0, à l'image du rendu visible sur europarl.europa.eu.</text>
+        <text lang="en">This lab required modeling, in XML Schema, all the data needed to represent European Parliament debates, then transforming that XML into HTML on the client side with XSLT 1.0, similar to the rendering seen on europarl.europa.eu.</text>
+        <text lang="ar">يتطلب هذا العمل التطبيقي نمذجة جميع البيانات اللازمة لتمثيل نقاشات البرلمان الأوروبي بصيغة XML Schema، ثم تحويل هذا XML إلى HTML من جانب العميل باستخدام XSLT 1.0، على غرار العرض الظاهر في موقع europarl.europa.eu.</text>
+    </block>
+    <block id="tp4_section_schema">
+        <text lang="fr">1. XML Schema</text>
+        <text lang="en">1. XML Schema</text>
+        <text lang="ar">1. XML Schema</text>
+    </block>
+    <block id="tp4_section_schema_text">
+        <text lang="fr">J'ai défini des types simples (code pays ISO 3166, code langue ISO 639, période de mandature) et des types complexes (pays, mouvement politique national, député européen, séance, point d'ordre du jour, intervention), avec une contrainte de clé garantissant que toute intervention est attribuée à un interlocuteur réellement répertorié (député ou commissaire).</text>
+        <text lang="en">I defined simple types (ISO 3166 country code, ISO 639 language code, term period) and complex types (country, national political movement, MEP, sitting, agenda item, speech), with a key constraint ensuring every speech is attributed to an actually listed speaker (MEP or commissioner).</text>
+        <text lang="ar">حددت أنواعًا بسيطة (رمز بلد ISO 3166، رمز لغة ISO 639، فترة الولاية) وأنواعًا معقدة (بلد، حركة سياسية وطنية، نائب أوروبي، جلسة، نقطة جدول الأعمال، تدخل)، مع قيد مفتاح يضمن أن كل تدخل منسوب إلى متحدث مدرج فعلاً (نائب أو مفوض).</text>
+    </block>
+    <block id="tp4_section_xslt">
+        <text lang="fr">2. Transformation XSLT</text>
+        <text lang="en">2. XSLT transformation</text>
+        <text lang="ar">2. تحويل XSLT</text>
+    </block>
+    <block id="tp4_section_xslt_text">
+        <text lang="fr">J'ai créé un document XML conforme à mon schéma pour le point 14 de la séance du 14 janvier 2020, validé avec xmllint --schema, puis une feuille XSLT 1.0 transformant ce document XML en un rendu HTML côté client proche de celui du site officiel.</text>
+        <text lang="en">I created an XML document conforming to my schema for item 14 of the sitting of January 14, 2020, validated with xmllint --schema, then an XSLT 1.0 stylesheet transforming this XML document into a client-side HTML rendering close to that of the official site.</text>
+        <text lang="ar">أنشأت وثيقة XML متوافقة مع مخططي للنقطة 14 من جلسة 14 يناير 2020، تم التحقق منها باستخدام xmllint --schema، ثم ورقة XSLT 1.0 تحوّل هذه الوثيقة إلى عرض HTML من جانب العميل قريب من عرض الموقع الرسمي.</text>
+    </block>
+
+    <!-- PAge TP5-->
+    <block id="tp5_title_tag">
+        <text lang="fr">TP5 — RDFa — PRENOM NOM</text>
+        <text lang="en">Lab 5 — RDFa — FIRSTNAME LASTNAME</text>
+        <text lang="ar">العمل التطبيقي 5 — RDFa — PRENOM NOM</text>
+    </block>
+    <block id="tp5_h1">
+        <text lang="fr">TP5 — Annotations RDFa</text>
+        <text lang="en">Lab 5 — RDFa annotations</text>
+        <text lang="ar">العمل التطبيقي 5 — تعليقات RDFa</text>
+    </block>
+    <block id="tp5_intro">
+        <text lang="fr">Ce TP individuel demande d'enrichir mon portfolio avec des annotations RDFa, en utilisant au minimum les vocabulaires Dublin Core et FOAF, afin qu'un outil comme OpenLink Structured Data Sniffer puisse en extraire des triplets RDF.</text>
+        <text lang="en">This individual lab required enriching my portfolio with RDFa annotations, using at least the Dublin Core and FOAF vocabularies, so that a tool like OpenLink Structured Data Sniffer can extract RDF triples from it.</text>
+        <text lang="ar">يتطلب هذا العمل التطبيقي الفردي إغناء بورتفوليو بتعليقات RDFa، باستخدام مفردات Dublin Core و FOAF على الأقل، حتى تتمكن أداة مثل OpenLink Structured Data Sniffer من استخراج ثلاثيات RDF منه.</text>
+    </block>
+    <block id="tp5_section_choix">
+        <text lang="fr">1. Choix d'implémentation</text>
+        <text lang="en">1. Implementation choice</text>
+        <text lang="ar">1. خيار التنفيذ</text>
+    </block>
+    <block id="tp5_section_choix_text">
+        <text lang="fr">Plutôt que de limiter le RDFa à une seule page de démonstration, j'ai choisi de l'intégrer sur l'ensemble de mon portfolio (Accueil, CV, Travaux), en combinant Dublin Core, FOAF et schema.org. Sur l'accueil, je m'identifie comme une foaf:Person ; sur le CV, chaque poste et chaque formation deviennent des ressources schema:WorkExperience / schema:EducationalOccupationalCredential ; sur la page Travaux, chaque module est un schema:Course et chaque TP un schema:LearningResource.</text>
+        <text lang="en">Rather than limiting RDFa to a single demonstration page, I chose to integrate it across my entire portfolio (Home, Resume, Projects), combining Dublin Core, FOAF, and schema.org. On the homepage, I identify myself as a foaf:Person; on the resume, each position and qualification becomes a schema:WorkExperience / schema:EducationalOccupationalCredential resource; on the Projects page, each module is a schema:Course and each lab a schema:LearningResource.</text>
+        <text lang="ar">بدلاً من حصر RDFa في صفحة عرض واحدة، اخترت إدماجه في كافة بورتفوليو (الرئيسية، السيرة الذاتية، الأعمال)، بالجمع بين Dublin Core و FOAF و schema.org. في الصفحة الرئيسية، أعرّف عن نفسي كـ foaf:Person؛ في السيرة الذاتية، تصبح كل وظيفة وكل شهادة موردًا من نوع schema:WorkExperience / schema:EducationalOccupationalCredential؛ في صفحة الأعمال، كل وحدة هي schema:Course وكل عمل تطبيقي هو schema:LearningResource.</text>
+    </block>
+    <block id="tp5_section_validation">
+        <text lang="fr">2. Validation</text>
+        <text lang="en">2. Validation</text>
+        <text lang="ar">2. التحقق</text>
+    </block>
+    <block id="tp5_section_validation_text">
+        <text lang="fr">J'ai vérifié l'extraction des triplets avec l'extension Firefox OpenLink Structured Data Sniffer et avec le RDFa Distiller du W3C, sur chacune des pages du site.</text>
+        <text lang="en">I checked the triple extraction with the Firefox extension OpenLink Structured Data Sniffer and with the W3C RDFa Distiller, on each page of the site.</text>
+        <text lang="ar">تحققت من استخراج الثلاثيات باستخدام امتداد Firefox OpenLink Structured Data Sniffer وأداة RDFa Distiller من W3C، في كل صفحات الموقع.</text>
+    </block>
+
+    <!-- Page competences-->
+    <block id="competences_title_tag">
+        <text lang="fr">Compétences techniques — PRENOM NOM</text>
+        <text lang="en">Technical Skills — FIRSTNAME LASTNAME</text>
+        <text lang="ar">المهارات التقنية — PRENOM NOM</text>
+    </block>
+    <block id="competences_h1">
+        <text lang="fr">Compétences en Web sémantique</text>
+        <text lang="en">Semantic Web Skills</text>
+        <text lang="ar">مهارات الويب الدلالي</text>
+    </block>
+    <block id="competences_subtitle">
+        <text lang="fr">Vocabulaire contrôlé des technologies maîtrisées (modélisé en SKOS)</text>
+        <text lang="en">Controlled vocabulary of mastered technologies (modeled in SKOS)</text>
+        <text lang="ar">مفردات متحكم بها للتقنيات المكتسبة (منمذجة بصيغة SKOS)</text>
+    </block>
+
+    <block id="cat_donnees_label">
+        <text lang="fr">Modélisation des données</text>
+        <text lang="en">Data modeling</text>
+        <text lang="ar">نمذجة البيانات</text>
+    </block>
+    <block id="cat_donnees_desc">
+        <text lang="fr">XML, DTD, XML Schema (XSD), Unicode (UCS-4, UTF-8, UTF-16)</text>
+        <text lang="en">XML, DTD, XML Schema (XSD), Unicode (UCS-4, UTF-8, UTF-16)</text>
+        <text lang="ar">XML، DTD، XML Schema (XSD)، يونيكود (UCS-4، UTF-8، UTF-16)</text>
+    </block>
+
+    <block id="cat_transformation_label">
+        <text lang="fr">Transformation et requêtes</text>
+        <text lang="en">Transformation and querying</text>
+        <text lang="ar">التحويل والاستعلام</text>
+    </block>
+    <block id="cat_transformation_desc">
+        <text lang="fr">XSLT 1.0, XPath, DOM</text>
+        <text lang="en">XSLT 1.0, XPath, DOM</text>
+        <text lang="ar">XSLT 1.0، XPath، DOM</text>
+    </block>
+
+    <block id="cat_semantique_label">
+        <text lang="fr">Web sémantique et données liées</text>
+        <text lang="en">Semantic Web and linked data</text>
+        <text lang="ar">الويب الدلالي والبيانات المرتبطة</text>
+    </block>
+    <block id="cat_semantique_desc">
+        <text lang="fr">RDF, RDFS, RDFa, SPARQL, SKOS, Corese</text>
+        <text lang="en">RDF, RDFS, RDFa, SPARQL, SKOS, Corese</text>
+        <text lang="ar">RDF، RDFS، RDFa، SPARQL، SKOS، Corese</text>
+    </block>
+
+    <block id="cat_web_label">
+        <text lang="fr">Développement Web</text>
+        <text lang="en">Web Development</text>
+        <text lang="ar">تطوير الويب</text>
+    </block>
+    <block id="cat_web_desc">
+        <text lang="fr">HTML5, XHTML, CSS, JavaScript, SVG, schema.org</text>
+        <text lang="en">HTML5, XHTML, CSS, JavaScript, SVG, schema.org</text>
+        <text lang="ar">HTML5، XHTML، CSS، JavaScript، SVG، schema.org</text>
+    </block>
+
+    <block id="cat_outils_label">
+        <text lang="fr">Outils et validation</text>
+        <text lang="en">Tools and validation</text>
+        <text lang="ar">الأدوات والتحقق</text>
+    </block>
+    <block id="cat_outils_desc">
+        <text lang="fr">xmllint, validateurs W3C, OpenLink Structured Data Sniffer, RDFa Distiller</text>
+        <text lang="en">xmllint, W3C validators, OpenLink Structured Data Sniffer, RDFa Distiller</text>
+        <text lang="ar">xmllint، أدوات تحقق W3C، OpenLink Structured Data Sniffer، RDFa Distiller</text>
+    </block>
+
+</content>
