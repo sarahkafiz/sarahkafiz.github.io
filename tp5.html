@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:schema="https://schema.org/"
+      prefix="dc: http://purl.org/dc/elements/1.1/
+              foaf: http://xmlns.com/foaf/0.1/
+              schema: https://schema.org/">
+<head>
+    <meta charset="UTF-8" />
+    <title property="dc:title" data-i18n="tp5_title_tag">TP5 — RDFa — Sarah KAFIZ</title>
+    <meta property="dc:creator" content="PRENOM NOM" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/site.js" defer="defer"></script>
+</head>
+<body typeof="schema:LearningResource" resource="#tp5">
+
+    <div id="lang-switcher">
+        <select aria-label="Choisir la langue">
+        <option value="fr">Français</option>
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+        </select>
+    </div>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">Sarah KAFIZ</a>
+        <nav class="main-nav">
+        <a href="index.html" data-i18n="nav_accueil">Accueil</a>
+        <a href="cv.html" data-i18n="nav_cv">CV</a>
+        <a href="travaux.html" class="current" data-i18n="nav_travaux">Travaux</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro-block">
+        <p class="contact-line"><a href="travaux-web-semantique.html" data-i18n="ws_back_link">← Travaux</a></p>
+        <h1 property="schema:name dc:title" data-i18n="tp5_h1">TP5 — Annotations RDFa</h1>
+        <p data-i18n="tp5_intro" property="schema:description dc:description">
+            Introduction du TP5.
+        </p>
+        </div>
+
+        <h2 data-i18n="tp5_section_choix">1. Choix d'implémentation</h2>
+        <p data-i18n="tp5_section_choix_text">Texte.</p>
+
+        <h2 data-i18n="tp5_section_validation">2. Validation</h2>
+        <p data-i18n="tp5_section_validation_text">Texte.</p>
+    </main>
+
+    <footer>
+        <p data-i18n="footer_text">Portfolio — FR / EN / AR</p>
+    </footer>
+
+</body>
+</html>

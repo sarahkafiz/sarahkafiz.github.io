@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:schema="https://schema.org/"
+      prefix="dc: http://purl.org/dc/elements/1.1/
+              foaf: http://xmlns.com/foaf/0.1/
+              schema: https://schema.org/">
+<head>
+    <meta charset="UTF-8" />
+    <title property="dc:title" data-i18n="cv_title_tag">CV — PRENOM NOM</title>
+    <meta property="dc:creator" content="PRENOM NOM" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/site.js" defer="defer"></script>
+</head>
+<body typeof="foaf:Person schema:Person" resource="#moi">
+    <div id="lang-switcher">
+        <select aria-label="Choisir la langue">
+        <option value="fr">Français</option>
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+        </select>
+    </div>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">Sarah KAFIZ</a>
+        <nav class="main-nav">
+        <a href="index.html" data-i18n="nav_accueil">Accueil</a>
+        <a href="cv.html" class="current" data-i18n="nav_cv">CV</a>
+        <a href="travaux.html" data-i18n="nav_travaux">Travaux</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro-block">
+        <h1 data-i18n="cv_h1">Parcours</h1>
+        <p class="subtitle" data-i18n="cv_subtitle">Expériences professionnelles et formation</p>
+        </div>
+
+        <!-- ============================================================
+            EXPÉRIENCE PROFESSIONNELLE
+            ============================================================ -->
+        <h2 data-i18n="cv_section_experience">Expérience professionnelle</h2>
+        <div class="timeline">
+
+        <div class="timeline-item" typeof="schema:OrganizeAction" property="schema:hasOccupation">
+            <p class="timeline-date" data-i18n="cv_exp1_date">2025 — Présent</p>
+            <p class="timeline-title" property="schema:name" data-i18n="cv_exp1_title">
+            Alternante en développement logiciel — SNCF Voyageurs
+            </p>
+            <p class="timeline-desc" property="schema:description" data-i18n="cv_exp1_desc">
+            Description du poste.
+            </p>
+        </div>
+
+        <div class="timeline-item" typeof="schema:OrganizeAction" property="schema:hasOccupation">
+            <p class="timeline-date" data-i18n="cv_exp2_date">2024 — 2025</p>
+            <p class="timeline-title" property="schema:name" data-i18n="cv_exp2_title">
+            Développeuse Full Stack — Bettane et Desseauve
+            </p>
+            <p class="timeline-desc" property="schema:description" data-i18n="cv_exp2_desc">
+            Description du poste.
+            </p>
+        </div>
+
+        </div>
+
+        <!-- ============================================================
+            FORMATION
+            ============================================================ -->
+        <h2 data-i18n="cv_section_formation">Formation</h2>
+        <div class="timeline">
+
+        <div class="timeline-item" typeof="schema:EducationalOccupationalCredential" property="schema:hasCredential">
+            <p class="timeline-date" data-i18n="cv_edu1_date">2024 — 2027</p>
+            <p class="timeline-title" property="schema:name" data-i18n="cv_edu1_title">
+            École d'ingénieur en informatique — Sup Galilée
+            </p>
+            <p class="timeline-desc" property="schema:description" data-i18n="cv_edu1_desc">
+            Description.
+            </p>
+        </div>
+
+        <div class="timeline-item" typeof="schema:EducationalOccupationalCredential" property="schema:hasCredential">
+            <p class="timeline-date" data-i18n="cv_edu2_date">2023 — 2024</p>
+            <p class="timeline-title" property="schema:name" data-i18n="cv_edu2_title">
+            Licence Informatique, 2e année
+            </p>
+            <p class="timeline-desc" property="schema:description" data-i18n="cv_edu2_desc">
+            Description.
+            </p>
+        </div>
+
+        <div class="timeline-item" typeof="schema:EducationalOccupationalCredential" property="schema:hasCredential">
+            <p class="timeline-date" data-i18n="cv_edu3_date">2022 — 2023</p>
+            <p class="timeline-title" property="schema:name" data-i18n="cv_edu3_title">
+            Double licence Mathématiques-Informatique, 1ère année
+            </p>
+            <p class="timeline-desc" property="schema:description" data-i18n="cv_edu3_desc">
+            Description.
+            </p>
+        </div>
+
+        <div class="timeline-item" typeof="schema:EducationalOccupationalCredential" property="schema:hasCredential">
+            <p class="timeline-date" data-i18n="cv_edu4_date">2021 — 2022</p>
+            <p class="timeline-title" property="schema:name" data-i18n="cv_edu4_title">
+            PASS — Parcours d'Accès Spécifique Santé
+            </p>
+            <p class="timeline-desc" property="schema:description" data-i18n="cv_edu4_desc">
+            Description.
+            </p>
+        </div>
+
+        <div class="timeline-item" typeof="schema:EducationalOccupationalCredential" property="schema:hasCredential">
+            <p class="timeline-date" data-i18n="cv_edu5_date">2020 — 2021</p>
+            <p class="timeline-title" property="schema:name" data-i18n="cv_edu5_title">
+            Baccalauréat général
+            </p>
+            <p class="timeline-desc" property="schema:description" data-i18n="cv_edu5_desc">
+            Description.
+            </p>
+        </div>
+
+        </div>
+
+        <!-- ============================================================
+            PROJETS
+            ============================================================ -->
+        <h2 data-i18n="cv_section_projets">Projets</h2>
+        <div class="grid-cases" typeof="schema:ItemList">
+
+        <div class="case-item" typeof="schema:CreativeWork" property="schema:itemListElement">
+            <span class="case-label" property="schema:name" data-i18n="cv_proj1_title">Octopunks</span>
+            <p class="case-desc" property="schema:description" data-i18n="cv_proj1_desc">Description.</p>
+        </div>
+
+        <div class="case-item" typeof="schema:CreativeWork" property="schema:itemListElement">
+            <span class="case-label" property="schema:name" data-i18n="cv_proj2_title">WikiComptines</span>
+            <p class="case-desc" property="schema:description" data-i18n="cv_proj2_desc">Description.</p>
+        </div>
+
+        <div class="case-item" typeof="schema:CreativeWork" property="schema:itemListElement">
+            <span class="case-label" property="schema:name" data-i18n="cv_proj3_title">Sac à dos 0/1</span>
+            <p class="case-desc" property="schema:description" data-i18n="cv_proj3_desc">Description.</p>
+        </div>
+
+        <div class="case-item" typeof="schema:CreativeWork" property="schema:itemListElement">
+            <span class="case-label" property="schema:name" data-i18n="cv_proj4_title">Tautologie</span>
+            <p class="case-desc" property="schema:description" data-i18n="cv_proj4_desc">Description.</p>
+        </div>
+
+        </div>
+
+        <!-- ============================================================
+            COMPÉTENCES
+            ============================================================ -->
+        <h2 data-i18n="cv_section_competences">Compétences</h2>
+        <div class="card-list">
+        <p><strong data-i18n="cv_comp_langages_label">Langages</strong> : <span property="schema:knowsAbout" data-i18n="cv_comp_langages_value">—</span></p>
+        <p><strong data-i18n="cv_comp_web_label">Web</strong> : <span property="schema:knowsAbout" data-i18n="cv_comp_web_value">—</span></p>
+        <p><strong data-i18n="cv_comp_frameworks_label">Frameworks</strong> : <span property="schema:knowsAbout" data-i18n="cv_comp_frameworks_value">—</span></p>
+        <p><strong data-i18n="cv_comp_outils_label">Outils</strong> : <span property="schema:knowsAbout" data-i18n="cv_comp_outils_value">—</span></p>
+        <p><strong data-i18n="cv_comp_systemes_label">Systèmes</strong> : <span property="schema:knowsAbout" data-i18n="cv_comp_systemes_value">—</span></p>
+        </div>
+
+        <!-- ============================================================
+            LANGUES
+            ============================================================ -->
+        <h2 data-i18n="cv_section_langues">Langues</h2>
+        <div class="card-list">
+        <p property="schema:knowsLanguage" data-i18n="cv_lang_anglais">Anglais — Niveau avancé</p>
+        <p property="schema:knowsLanguage" data-i18n="cv_lang_francais">Français — Bilingue</p>
+        </div>
+
+        <!-- ============================================================
+            CENTRES D'INTÉRÊT
+            ============================================================ -->
+        <h2 data-i18n="cv_section_interets">Centres d'intérêt</h2>
+        <div class="card-list">
+        <p data-i18n="cv_interet_sport">Sport — 6 ans de basketball</p>
+        <p data-i18n="cv_interet_assoc">Associatif — 2 ans de scoutisme</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p data-i18n="footer_text">Portfolio — FR / EN / AR</p>
+    </footer>
+
+</body>
+</html>

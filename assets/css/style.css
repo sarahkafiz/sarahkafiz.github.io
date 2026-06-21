@@ -1,0 +1,131 @@
+/* ============================================================
+   Portfolio de PRENOM NOM
+   Style : épuré, élégant, fond clair, typographie soignée
+   ============================================================ */
+
+:root {
+  --color-bg: #faf8f4;
+  --color-text: #1a1a18;
+  --color-text-dim: #6b6558;
+  --color-accent: #8b7355;
+  --color-line: #d8d2c4;
+  --color-card: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* En-tête : nom en majuscules espacées, nav discrète */
+header.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 8rem 1.6rem 3rem;
+  border-bottom: 1px solid var(--color-line);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+header.site-header .brand {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav.main-nav a {
+  color: var(--color-text-dim);
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 0.15s ease;
+}
+
+nav.main-nav a:hover,
+nav.main-nav a.current {
+  color: var(--color-accent);
+}
+
+/* Sélecteur de langue : liste déroulante, position fixe */
+#lang-switcher {
+  position: fixed;
+  top: 1.4rem;
+  right: 1.6rem;
+  z-index: 999;
+}
+
+#lang-switcher select {
+  border: 1px solid var(--color-line);
+  background: var(--color-bg);
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 4rem 1.8rem 5rem;
+}
+
+h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-top: 3.2rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.subtitle {
+  color: var(--color-text-dim);
+  font-size: 1.05rem;
+  margin: 0 0 2rem;
+  font-style: italic;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-line);
+}
+
+footer {
+  text-align: center;
+  color: var(--color-text-dim);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  padding: 3rem 0 2rem;
+  text-transform: uppercase;
+}
