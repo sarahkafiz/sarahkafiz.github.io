@@ -45,9 +45,9 @@
         <text lang="ar">طالبة هندسة معلوماتية</text>
     </block>
     <block id="home_intro">
-        <text lang="fr">Bienvenue sur mon portfolio. Je suis étudiante ingénieure en informatique à SUP Galilée, en alternance chez SNCF Voyageurs en tant que développeuse logiciel.</text>
-        <text lang="en">Welcome to my portfolio. I am a computer engineering student at SUP Galilee, working as an apprentice at SNCF Voyageurs as a software Developer.</text>
-        <text lang="ar">.أهلاً بكم في معرض أعمالي. أنا طالبة هندسة حاسوب في جامعة سوب غاليلي، وأعمل بدوام جزئي في شركة سنسف للمسافرين كمطورة برامج</text>
+        <text lang="fr">Je suis étudiante ingénieure en informatique à SUP Galilée, en alternance chez SNCF Voyageurs en tant que développeuse logiciel.</text>
+        <text lang="en">I am a computer engineering student at SUP Galilee, working as an apprentice at SNCF Voyageurs as a software Developer.</text>
+        <text lang="ar">.أنا طالبة هندسة حاسوب في جامعة سوب غاليلي، وأعمل بدوام جزئي في شركة سنسف للمسافرين كمطورة برامج</text>
     </block>
     <block id="home_welcome">
         <text lang="fr">Bienvenue sur mon portfolio !</text>
@@ -74,10 +74,15 @@
         <text lang="en">The History and Basics of Graphic Design in 1 hour</text>
         <text lang="ar">تاريخ وأساسيات التصميم الجرافيكي في ساعة واحدة</text>
     </block>
-    <block id="home_section_presentation">
-        <text lang="fr">Présentation</text>
-        <text lang="en">Presentation</text>
-        <text lang="ar">تقديم</text>
+    <block id="home_section_contact">
+        <text lang="fr">Contact</text>
+        <text lang="en">Contact</text>
+        <text lang="ar">التواصل</text>
+    </block>
+    <block id="home_section_videos">
+        <text lang="fr">Vidéos regardées</text>
+        <text lang="en">Watched videos</text>
+        <text lang="ar">الفيديوهات التي شاهدتها</text>
     </block>
     <block id="home_section_apercu">
         <text lang="fr">Aperçu</text>
@@ -838,78 +843,5 @@
         <text lang="ar">تحققنا من استخراج الثلاثيات باستخدام امتداد Firefox OpenLink Structured Data Sniffer، الذي يعرض مباشرة تعليقات RDFa المكتشفة في الصفحة. يظهر كل مجلد وكتاب وشخصية بشكل صحيح كمورد مصنّف ومرتبط بالآخرين، مما يسمح باستخراج الرسم البياني الكامل في صورة ثلاثيات RDF دون لمس النص الظاهر في الصفحة.</text>
     </block>
 
- 
-
-    <!-- Page competences-->
-    <block id="competences_title_tag">
-        <text lang="fr">Compétences techniques — Sarah KAFIZ</text>
-        <text lang="en">Technical Skills — Sarah KAFIZ</text>
-        <text lang="ar">المهارات التقنية — صارة كافيز</text>
-    </block>
-    <block id="competences_h1">
-        <text lang="fr">Compétences en Web sémantique</text>
-        <text lang="en">Semantic Web Skills</text>
-        <text lang="ar">مهارات الويب الدلالي</text>
-    </block>
-    <block id="competences_subtitle">
-        <text lang="fr">Vocabulaire contrôlé des technologies maîtrisées (modélisé en SKOS)</text>
-        <text lang="en">Controlled vocabulary of mastered technologies (modeled in SKOS)</text>
-        <text lang="ar">مفردات متحكم بها للتقنيات المكتسبة (منمذجة بصيغة SKOS)</text>
-    </block>
-
-    <block id="cat_donnees_label">
-        <text lang="fr">Modélisation des données</text>
-        <text lang="en">Data modeling</text>
-        <text lang="ar">نمذجة البيانات</text>
-    </block>
-    <block id="cat_donnees_desc">
-        <text lang="fr">XML, DTD, XML Schema (XSD), Unicode (UCS-4, UTF-8, UTF-16)</text>
-        <text lang="en">XML, DTD, XML Schema (XSD), Unicode (UCS-4, UTF-8, UTF-16)</text>
-        <text lang="ar">XML، DTD، XML Schema (XSD)، يونيكود (UCS-4، UTF-8، UTF-16)</text>
-    </block>
-
-    <block id="cat_transformation_label">
-        <text lang="fr">Transformation et requêtes</text>
-        <text lang="en">Transformation and querying</text>
-        <text lang="ar">التحويل والاستعلام</text>
-    </block>
-    <block id="cat_transformation_desc">
-        <text lang="fr">XSLT 1.0, XPath, DOM</text>
-        <text lang="en">XSLT 1.0, XPath, DOM</text>
-        <text lang="ar">XSLT 1.0، XPath، DOM</text>
-    </block>
-
-    <block id="cat_semantique_label">
-        <text lang="fr">Web sémantique et données liées</text>
-        <text lang="en">Semantic Web and linked data</text>
-        <text lang="ar">الويب الدلالي والبيانات المرتبطة</text>
-    </block>
-    <block id="cat_semantique_desc">
-        <text lang="fr">RDF, RDFS, RDFa, SPARQL, SKOS, Corese</text>
-        <text lang="en">RDF, RDFS, RDFa, SPARQL, SKOS, Corese</text>
-        <text lang="ar">RDF، RDFS، RDFa، SPARQL، SKOS، Corese</text>
-    </block>
-
-    <block id="cat_web_label">
-        <text lang="fr">Développement Web</text>
-        <text lang="en">Web Development</text>
-        <text lang="ar">تطوير الويب</text>
-    </block>
-    <block id="cat_web_desc">
-        <text lang="fr">HTML5, XHTML, CSS, JavaScript, SVG, schema.org</text>
-        <text lang="en">HTML5, XHTML, CSS, JavaScript, SVG, schema.org</text>
-        <text lang="ar">HTML5، XHTML، CSS، JavaScript، SVG، schema.org</text>
-    </block>
-
-    <block id="cat_outils_label">
-        <text lang="fr">Outils et validation</text>
-        <text lang="en">Tools and validation</text>
-        <text lang="ar">الأدوات والتحقق</text>
-    </block>
-    <block id="cat_outils_desc">
-        <text lang="fr">xmllint, validateurs W3C, OpenLink Structured Data Sniffer, RDFa Distiller</text>
-        <text lang="en">xmllint, W3C validators, OpenLink Structured Data Sniffer, RDFa Distiller</text>
-        <text lang="ar">xmllint، أدوات تحقق W3C، OpenLink Structured Data Sniffer، RDFa Distiller</text>
-    </block>
 
 </content>
