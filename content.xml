@@ -25,7 +25,7 @@
     <block id="footer_text">
         <text lang="fr">Portfolio — FR / EN / AR</text>
         <text lang="en">Portfolio — FR / EN / AR</text>
-        <text lang="ar">بورتفوليو — FR / EN / AR</text>
+        <text lang="ar">بورتفوليو — فر / إن / عر</text>
     </block>
 
     <!-- Page d'accueil-->
@@ -62,12 +62,12 @@
     <block id="home_video1_title">
         <text lang="fr">Formation Développeur Android complète avec Android Studio et Kotlin — Tutoriel Android (Niveau 1)</text>
         <text lang="en">Complete Android Developer course with Android Studio and Kotlin — Android Tutorial (Level 1)</text>
-        <text lang="ar">دورة كاملة لمطور أندرويد باستخدام Android Studio و Kotlin — درس أندرويد (المستوى 1)</text>
+        <text lang="ar">دورة كاملة لمطور أندرويد باستخدام أندرويد ستوديو وكوتلن  — درس أندرويد (المستوى 1)</text>
     </block>
     <block id="home_video2_title">
         <text lang="fr">Fabriquer (un vrai) mini PC ! #raspberrypi #watercooling</text>
         <text lang="en">Building a (real) mini PC! #raspberrypi #watercooling</text>
-        <text lang="ar">صنع جهاز كمبيوتر مصغّر (حقيقي)! #raspberrypi #watercooling</text>
+        <text lang="ar">صنع جهاز كمبيوتر مصغّر (حقيقي)! #رازبيري_باي#تبريد_مائي</text>
     </block>
     <block id="home_video3_title">
         <text lang="fr">L'Histoire et les Bases du Graphisme en 1h</text>
@@ -126,7 +126,7 @@
     <block id="cv_exp1_date">
         <text lang="fr">2025 — Présent</text>
         <text lang="en">2025 — Present</text>
-        <text lang="ar">2025 — حتى الآن</text>
+        <text lang="ar">٢٠٢٥ — حتى الآن</text>
     </block>
     <block id="cv_exp1_title">
         <text lang="fr">Alternante en développement logiciel — SNCF Voyageurs</text>
@@ -142,7 +142,7 @@
     <block id="cv_exp2_date">
         <text lang="fr">2024 — 2025</text>
         <text lang="en">2024 — 2025</text>
-        <text lang="ar">2024 — 2025</text>
+        <text lang="ar">٢٠٢٤ — ٢٠٢٥</text>
     </block>
     <block id="cv_exp2_title">
         <text lang="fr">Alternance en développement Full Stack — Bettane et Desseauve </text>
@@ -152,7 +152,7 @@
     <block id="cv_exp2_desc">
         <text lang="fr">Développement et maintenance d'un écosystème d'outils métier (bases de données, applications sur mesure, outils tiers : ElasticSearch, Talend...). Écoute et analyse des besoins des utilisateurs pour créer des solutions adaptées. Conception : participation aux choix techniques et à l'architecture des projets. Développement complet — Backend : APIs REST avec Java Spring ; Frontend : sites web interactifs (Joomla, WordPress) ; Mobile : applications natives Android pour articles et concours de dégustation interactifs (Kotlin). Mise en production : déploiement et maintenance via un environnement containerisé (Docker, Rancher).</text>
         <text lang="en">Development and maintenance of a business tools ecosystem (databases, custom applications, third-party tools: ElasticSearch, Talend...). Listening to and analyzing user needs to create suitable solutions. Design: participation in technical choices and project architecture. Full development — Backend: REST APIs with Java Spring; Frontend: interactive websites (Joomla, WordPress); Mobile: native Android applications for articles and interactive tasting contests (Kotlin). Production deployment: deployment and maintenance via a containerized environment (Docker, Rancher).</text>
-        <text lang="ar">تطوير وصيانة منظومة أدوات مهنية (قواعد بيانات، تطبيقات مخصصة، أدوات خارجية: ElasticSearch، Talend...). الاستماع لاحتياجات المستخدمين وتحليلها لإنشاء حلول مناسبة. التصميم: المشاركة في الخيارات التقنية وهيكلة المشاريع. التطوير الكامل — الواجهة الخلفية: واجهات REST API باستخدام Java Spring؛ الواجهة الأمامية: مواقع تفاعلية (Joomla، WordPress)؛ تطبيقات الهاتف: تطبيقات أندرويد أصلية (Kotlin). النشر: النشر والصيانة عبر بيئة معبأة بالحاويات (Docker، Rancher).</text>
+        <text lang="ar">تطوير وصيانة منظومة من أدوات العمل (قواعد بيانات، تطبيقات مخصصة، وأدوات خارجية مثل محرك البحث المتقدم في البيانات و منصة إدارة البيانات طاليند، ايلاستك سرش...). الاستماع إلى احتياجات المستخدمين وتحليلها من أجل إنشاء حلول مناسبة. التصميم: المشاركة في الاختيارات التقنية وهندسة المشاريع. التطوير الكامل — الخلفية: واجهات برمجة التطبيقات ( ) باستخدام إطار عمل جافا سبرينغ؛ الواجهة الأمامية: مواقع ويب تفاعلية (جوملا، ووردبريس)؛ الهاتف المحمول: تطبيقات أندرويد أصلية للمقالات ومسابقات التذوق التفاعلية باستخدام كوتلن. النشر في بيئة الإنتاج: النشر والصيانة عبر بيئة حاويات تطبيقات (دوكر، رينشر).</text>
     </block>
 
     <block id="cv_section_formation">
@@ -164,12 +164,12 @@
     <block id="cv_edu1_date">
         <text lang="fr">2024 — 2027</text>
         <text lang="en">2024 — 2027</text>
-        <text lang="ar">2024 — 2027</text>
+        <text lang="ar">٢٠٢٤ — ٢٠٢٧</text>
     </block>
     <block id="cv_edu1_title">
         <text lang="fr">École d'ingénieur en informatique — Sup Galilée</text>
         <text lang="en">Computer Engineering School — Sup Galilée</text>
-        <text lang="ar">مدرسة مهندسين في المعلوماتية — Sup Galilée</text>
+        <text lang="ar"> سوب غاليلي — مدرسة مهندسين في المعلوماتية</text>
     </block>
     <block id="cv_edu1_desc">
         <text lang="fr">Formation complète en informatique : bases de données, programmation orientée objet, fonctionnelle et impérative, modélisation UML, réseaux, etc.</text>
@@ -180,7 +180,7 @@
     <block id="cv_edu2_date">
         <text lang="fr">2023 — 2024</text>
         <text lang="en">2023 — 2024</text>
-        <text lang="ar">2023 — 2024</text>
+        <text lang="ar">٢٠٢٣ — ٢٠٢٤</text>
     </block>
     <block id="cv_edu2_title">
         <text lang="fr">Licence Informatique, 2e année — Université Sorbonne Paris Nord</text>
@@ -196,7 +196,7 @@
     <block id="cv_edu3_date">
         <text lang="fr">2022 — 2023</text>
         <text lang="en">2022 — 2023</text>
-        <text lang="ar">2022 — 2023</text>
+        <text lang="ar">٢٠٢٢ — ٢٠٢٣</text>
     </block>
     <block id="cv_edu3_title">
         <text lang="fr">Double licence Mathématiques-Informatique, 1ère année — Université Sorbonne Paris Nord</text>
@@ -212,12 +212,12 @@
     <block id="cv_edu4_date">
         <text lang="fr">2021 — 2022</text>
         <text lang="en">2021 — 2022</text>
-        <text lang="ar">2021 — 2022</text>
+        <text lang="ar">٢٠٢١ — ٢٠٢٢</text>
     </block>
     <block id="cv_edu4_title">
         <text lang="fr">PASS — Parcours d'Accès Spécifique Santé, Université de Versailles Saint-Quentin-en-Yvelines</text>
         <text lang="en">PASS — Specific Health Studies Access Pathway, University of Versailles Saint-Quentin-en-Yvelines</text>
-        <text lang="ar">PASS — مسار الوصول الخاص للدراسات الصحية، جامعة فرساي سان كنتان أون إيفلين</text>
+        <text lang="ar">مسار الوصول الخاص للدراسات الصحية، جامعة فرساي سان كنتان أون إيفلين</text>
     </block>
     <block id="cv_edu4_desc">
         <text lang="fr">Parcours d'accès aux études de médecine.</text>
@@ -228,7 +228,7 @@
     <block id="cv_edu5_date">
         <text lang="fr">2020 — 2021</text>
         <text lang="en">2020 — 2021</text>
-        <text lang="ar">2020 — 2021</text>
+        <text lang="ar">٢٠٢٠ — ٢٠٢١</text>
     </block>
     <block id="cv_edu5_title">
         <text lang="fr">Baccalauréat général — Lycée Taos Amrouche, Algérie</text>
@@ -238,7 +238,7 @@
     <block id="cv_edu5_desc">
         <text lang="fr">Mention Très Bien.</text>
         <text lang="en">Highest Honors.</text>
-        <text lang="ar">بميزة حسن جدًا.</text>
+        <text lang="ar">بميزة جيد جدا.</text>
     </block>
 
     <block id="cv_section_projets">
@@ -249,17 +249,17 @@
     <block id="cv_proj1_title">
         <text lang="fr">Octopunks</text>
         <text lang="en">Octopunks</text>
-        <text lang="ar">Octopunks</text>
+        <text lang="ar">أوكتوبانكس</text>
     </block>
     <block id="cv_proj1_desc">
         <text lang="fr">Clone du jeu Exapunks en Java/Swing.</text>
         <text lang="en">Clone of the game Exapunks, built in Java/Swing.</text>
-        <text lang="ar">نسخة من لعبة Exapunks بلغة Java/Swing.</text>
+        <text lang="ar">نسخة مقلدة من لعبة برمجة محاكاة التسلل باستخدام لغة جافا وواجهة سوينغ الرسومية.</text>
     </block>
     <block id="cv_proj2_title">
         <text lang="fr">WikiComptines</text>
         <text lang="en">WikiComptines</text>
-        <text lang="ar">WikiComptines</text>
+        <text lang="ar">ويكي كومبتين</text>
     </block>
     <block id="cv_proj2_desc">
         <text lang="fr">Application client-serveur avec protocole personnalisé WCP en C.</text>
@@ -274,7 +274,7 @@
     <block id="cv_proj3_desc">
         <text lang="fr">Algorithmes Backtracking, Programmation Dynamique, Glouton (C/Python).</text>
         <text lang="en">Backtracking, Dynamic Programming, Greedy algorithms (C/Python).</text>
-        <text lang="ar">خوارزميات Backtracking والبرمجة الديناميكية والخوارزميات الجشعة (C/Python).</text>
+        <text lang="ar">خوارزميات البحث العكسي، البرمجة الديناميكية، والخوارزميات الجشعة باستخدام لغتي س وبايثن.</text>
     </block>
     <block id="cv_proj4_title">
         <text lang="fr">Tautologie</text>
@@ -284,7 +284,7 @@
     <block id="cv_proj4_desc">
         <text lang="fr">Vérification de tautologies en programmation fonctionnelle, en OCaml.</text>
         <text lang="en">Tautology checking using functional programming, in OCaml.</text>
-        <text lang="ar">التحقق من المتطابقات المنطقية بالبرمجة الوظيفية، بلغة OCaml.</text>
+        <text lang="ar">التحقق من المتطابقات المنطقية بالبرمجة الوظيفية، بلغة أوكامِل</text>
     </block>
 
     <block id="cv_section_competences">
@@ -300,7 +300,7 @@
     <block id="cv_comp_langages_value">
         <text lang="fr">C, Java, Python, JavaScript, PHP, Kotlin, OCaml, CASL, COQ, LaTeX</text>
         <text lang="en">C, Java, Python, JavaScript, PHP, Kotlin, OCaml, CASL, COQ, LaTeX</text>
-        <text lang="ar">C, Java, Python, JavaScript, PHP, Kotlin, OCaml, CASL, COQ, LaTeX</text>
+        <text lang="ar">C, جافا، بايثون، جافا سكريبت، بي إتش بي، كوتلن، أوكامِل، CASL, COQ, LaTeX</text>
     </block>
     <block id="cv_comp_web_label">
         <text lang="fr">Web</text>
@@ -377,9 +377,9 @@
 
     <!--Page travaux-->
     <block id="travaux_title_tag">
-        <text lang="fr">Travaux — PRENOM NOM</text>
-        <text lang="en">Projects — FIRSTNAME LASTNAME</text>
-        <text lang="ar">الأعمال — PRENOM NOM</text>
+        <text lang="fr">Travaux — Sarah KAFIZ</text>
+        <text lang="en">Projects — Sarah KAFIZ</text>
+        <text lang="ar">الأعمال — صارة كافيز</text>
     </block>
     <block id="travaux_h1">
         <text lang="fr">Mes travaux</text>
@@ -409,9 +409,9 @@
     </block>
 
     <block id="module_devlog_name">
-        <text lang="fr">Développement logiciel</text>
-        <text lang="en">Software Development</text>
-        <text lang="ar">تطوير البرمجيات</text>
+        <text lang="fr">Administration système</text>
+        <text lang="en">System administration</text>
+        <text lang="ar">إدارة النظم</text>
     </block>
     <block id="module_devlog_desc">
         <text lang="fr">Contenu à venir.</text>
@@ -420,9 +420,9 @@
     </block>
 
     <block id="module_fullstack_name">
-        <text lang="fr">Développement Full Stack</text>
-        <text lang="en">Full Stack Development</text>
-        <text lang="ar">تطوير الواجهات الكاملة</text>
+        <text lang="fr">Optimisation Linéaire et Combinatoire</text>
+        <text lang="en">Linear and combinatorial optimization</text>
+        <text lang="ar">التحسين الخطي والتوافقي</text>
     </block>
     <block id="module_fullstack_desc">
         <text lang="fr">Contenu à venir.</text>
