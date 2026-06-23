@@ -49,6 +49,31 @@
         <text lang="en">Welcome to my portfolio. I am a computer engineering student at SUP Galilee, working as an apprentice at SNCF Voyageurs as a software Developer.</text>
         <text lang="ar">.أهلاً بكم في معرض أعمالي. أنا طالبة هندسة حاسوب في جامعة سوب غاليلي، وأعمل بدوام جزئي في شركة سنسف للمسافرين كمطورة برامج</text>
     </block>
+    <block id="home_welcome">
+        <text lang="fr">Bienvenue sur mon portfolio !</text>
+        <text lang="en">Welcome to my portfolio!</text>
+        <text lang="ar">مرحبًا بكم في بورتفوليو!</text>
+    </block>
+    <block id="home_video_intro">
+        <text lang="fr">Regardé dernièrement dans le cadre de mon apprentissage :</text>
+        <text lang="en">Recently watched as part of my learning journey:</text>
+        <text lang="ar">شاهدته مؤخرًا في إطار تعلّمي:</text>
+    </block>
+    <block id="home_video1_title">
+        <text lang="fr">Formation Développeur Android complète avec Android Studio et Kotlin — Tutoriel Android (Niveau 1)</text>
+        <text lang="en">Complete Android Developer course with Android Studio and Kotlin — Android Tutorial (Level 1)</text>
+        <text lang="ar">دورة كاملة لمطور أندرويد باستخدام Android Studio و Kotlin — درس أندرويد (المستوى 1)</text>
+    </block>
+    <block id="home_video2_title">
+        <text lang="fr">Fabriquer (un vrai) mini PC ! #raspberrypi #watercooling</text>
+        <text lang="en">Building a (real) mini PC! #raspberrypi #watercooling</text>
+        <text lang="ar">صنع جهاز كمبيوتر مصغّر (حقيقي)! #raspberrypi #watercooling</text>
+    </block>
+    <block id="home_video3_title">
+        <text lang="fr">L'Histoire et les Bases du Graphisme en 1h</text>
+        <text lang="en">The History and Basics of Graphic Design in 1 hour</text>
+        <text lang="ar">تاريخ وأساسيات التصميم الجرافيكي في ساعة واحدة</text>
+    </block>
     <block id="home_section_presentation">
         <text lang="fr">Présentation</text>
         <text lang="en">Presentation</text>
