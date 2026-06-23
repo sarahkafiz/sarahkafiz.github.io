@@ -493,7 +493,7 @@
         <text lang="ar">تعليقات RDFa (Dublin Core، FOAF) على بورتفوليو.</text>
     </block>
 
-    <!-- Page TP1-->
+    <!--  TP1 -->
     <block id="tp1_title_tag">
         <text lang="fr">TP1 — XML bien formé et valide — PRENOM NOM</text>
         <text lang="en">Lab 1 — Well-formed and valid XML — FIRSTNAME LASTNAME</text>
@@ -505,50 +505,76 @@
         <text lang="ar">العمل التطبيقي 1 — صياغة سليمة وصحيحة</text>
     </block>
     <block id="tp1_intro">
-        <text lang="fr">Ce premier TP m'a permis de manipuler les bases du XML : correction de documents mal formés, écriture d'une DTD commune à plusieurs fichiers, mise en page d'un catalogue XML avec CSS, requêtes XPath, et création d'un SVG animé.</text>
-        <text lang="en">This first lab introduced me to the basics of XML: fixing malformed documents, writing a DTD shared across multiple files, styling an XML catalog with CSS, XPath queries, and creating an animated SVG.</text>
-        <text lang="ar">سمح لي هذا العمل التطبيقي الأول بالتعرف على أساسيات XML: تصحيح ملفات غير سليمة الصياغة، كتابة DTD مشتركة، تنسيق كتالوج XML باستخدام CSS، استعلامات XPath، وإنشاء رسم SVG متحرك.</text>
+        <text lang="fr">Ce premier TP m'a fait reprendre les bases du XML depuis zéro : repérer une erreur de syntaxe, structurer un document avec du CSS, interroger des données avec XPath, et créer des images vectorielles animées.</text>
+        <text lang="en">This first lab took me back to the basics of XML: spotting a syntax error, structuring a document with CSS, querying data with XPath, and creating animated vector images.</text>
+        <text lang="ar">جعلني هذا العمل التطبيقي الأول أعود إلى أساسيات XML: اكتشاف خطأ في الصياغة، تنظيم وثيقة باستخدام CSS، استجواب البيانات باستخدام XPath، وإنشاء صور متجهة متحركة.</text>
     </block>
+    <block id="tp1_wiki_label">
+        <text lang="fr">Le wiki de description de travail de ce TP se trouve ici :</text>
+        <text lang="en">The wiki describing the work for this lab can be found here:</text>
+        <text lang="ar">يوجد ويكي وصف العمل لهذا العمل التطبيقي هنا:</text>
+    </block>
+    <block id="tp1_wiki_link">
+        <text lang="fr">Wiki du groupe — TP1</text>
+        <text lang="en">Group wiki — Lab 1</text>
+        <text lang="ar">ويكي الفريق — العمل التطبيقي 1</text>
+    </block>
+    
     <block id="tp1_section_xml">
-        <text lang="fr">1. XML bien formé et DTD</text>
-        <text lang="en">1. Well-formed XML and DTD</text>
-        <text lang="ar">1. XML سليم الصياغة و DTD</text>
+        <text lang="fr">1. Exercice 1 — Pas bon, bon !</text>
+        <text lang="en">1. Exercise 1 — Not good, good!</text>
+        <text lang="ar">1. التمرين 1 — غير سليم، سليم!</text>
     </block>
-    <block id="tp1_section_xml_text">
-        <text lang="fr">J'ai corrigé plusieurs fichiers XML mal formés (balises non fermées, mal imbriquées, ou texte hors structure) en les validant avec xmllint. J'ai ensuite écrit une DTD commune capable de valider les quatre versions corrigées du document.</text>
-        <text lang="en">I fixed several malformed XML files (unclosed tags, improperly nested elements, or stray text) by validating them with xmllint. I then wrote a shared DTD able to validate all four corrected versions of the document.</text>
-        <text lang="ar">قمت بتصحيح عدة ملفات XML غير سليمة الصياغة (وسوم غير مغلقة، تداخل غير صحيح، أو نص خارج البنية) من خلال التحقق منها باستخدام xmllint. ثم كتبت DTD مشتركة قادرة على التحقق من صحة النسخ الأربع المصححة من الوثيقة.</text>
+    <block id="tp1_ex1_text">
+        <text lang="fr">On nous a donné quatre fichiers XML cassés à réparer, chacun avec un problème différent : une racine multiple, une balise mal fermée, une fermeture sans ouverture correspondante, ou du texte égaré hors de la racine. En les passant un par un dans xmllint, j'ai compris très concrètement pourquoi le XML est aussi strict sur sa structure : un document XML n'a le droit qu'à une seule racine, chaque balise ouverte doit être refermée exactement avec son nom, et rien ne peut exister en dehors de l'élément racine. C'est ce genre d'erreur que je ne verrais probablement plus jamais sans y penser, maintenant que je les ai corrigées une par une.</text>
+        <text lang="en">We were given four broken XML files to fix, each with a different issue: multiple roots, a badly closed tag, a closing tag with no matching opening tag, or stray text outside the root. Going through them one by one with xmllint made it very concrete why XML is so strict about its structure: a document can only have a single root, every opened tag must be closed with its exact name, and nothing can exist outside the root element. These are mistakes I probably wouldn't overlook again now that I've fixed them one by one.</text>
+        <text lang="ar">أُعطينا أربعة ملفات XML معطوبة لتصحيحها، كل واحد منها بمشكلة مختلفة: جذر متعدد، وسم مغلق بشكل خاطئ، وسم إغلاق بدون وسم فتح مطابق، أو نص ضائع خارج الجذر. من خلال فحصها واحدة تلو الأخرى باستخدام xmllint، فهمت بشكل ملموس جدًا لماذا يكون XML صارمًا جدًا بخصوص بنيته: لا يمكن أن تحتوي الوثيقة إلا على جذر واحد، ويجب إغلاق كل وسم مفتوح باسمه بالضبط، ولا يمكن أن يوجد أي شيء خارج العنصر الجذري. هذه أخطاء لن أتجاهلها مرة أخرى الآن بعد أن صححتها واحدة تلو الأخرى.</text>
     </block>
+    
     <block id="tp1_section_css">
-        <text lang="fr">2. CSS appliqué à un fichier XML</text>
-        <text lang="en">2. CSS applied to an XML file</text>
-        <text lang="ar">2. تطبيق CSS على ملف XML</text>
+        <text lang="fr">2. Exercice 2 — La compagnie des glaces</text>
+        <text lang="en">2. Exercise 2 — La compagnie des glaces</text>
+        <text lang="ar">2. التمرين 2 — La compagnie des glaces</text>
     </block>
-    <block id="tp1_section_css_text">
-        <text lang="fr">J'ai créé un fichier XML listant les albums de « La compagnie des glaces » de Georges-Jean Arnaud (titre, vignette, résumé, lien vers la fiche), puis une feuille de style CSS pour l'afficher directement comme une page XHTML5 valide, triée par numéro de tome.</text>
-        <text lang="en">I created an XML file listing the volumes of "La compagnie des glaces" by Georges-Jean Arnaud (title, thumbnail, summary, link), then a CSS stylesheet to display it directly as valid XHTML5, sorted by volume number.</text>
-        <text lang="ar">أنشأت ملف XML يسرد ألبومات «La compagnie des glaces» لجورج-جان أرنو (العنوان، الصورة المصغرة، الملخص، الرابط)، ثم ورقة أنماط CSS لعرضها مباشرة كصفحة XHTML5 صحيحة، مرتبة بحسب رقم الجزء.</text>
+    <block id="tp1_ex2_text">
+        <text lang="fr">Pour cet exercice, j'ai construit un fichier XML listant les 16 intégrales de la série « La compagnie des glaces » de Georges-Jean Arnaud (63 tomes en tout), avec pour chacune un titre, une vignette, la liste des tomes, un résumé et un lien. Le plus intéressant a été de réaliser qu'un fichier XML pouvait être affiché directement dans le navigateur, sans passer par du HTML, simplement en lui associant une feuille de style CSS via &lt;?xml-stylesheet?&gt;. J'ai aussi appris à valider rigoureusement le résultat avec le Nu Html Checker du W3C, qui n'a remonté aucune erreur ni avertissement sur mon fichier final.</text>
+        <text lang="en">For this exercise, I built an XML file listing the 16 "Intégrale" volumes of the "La compagnie des glaces" series by Georges-Jean Arnaud (63 books in total), each with a title, a thumbnail, the list of books, a summary and a link. The most interesting part was realizing that an XML file could be displayed directly in the browser, without going through HTML, simply by attaching a CSS stylesheet to it via &lt;?xml-stylesheet?&gt;. I also learned to rigorously validate the result with the W3C's Nu Html Checker, which reported no errors or warnings on my final file.</text>
+        <text lang="ar">في هذا التمرين، أنشأت ملف XML يسرد 16 مجلدًا «Intégrale» من سلسلة «La compagnie des glaces» لجورج-جان أرنو (63 كتابًا في المجموع)، كل واحد منها بعنوان وصورة مصغرة وقائمة كتب وملخص ورابط. كان الجانب الأكثر إثارة للاهتمام هو إدراك أن ملف XML يمكن عرضه مباشرة في المتصفح، دون المرور عبر HTML، فقط بربطه بورقة أنماط CSS عبر &lt;?xml-stylesheet?&gt;. تعلمت أيضًا التحقق بدقة من النتيجة باستخدام Nu Html Checker من W3C، الذي لم يُظهر أي خطأ أو تحذير على ملفي النهائي.</text>
     </block>
+    
     <block id="tp1_section_xpath">
         <text lang="fr">3. Requêtes XPath</text>
         <text lang="en">3. XPath queries</text>
         <text lang="ar">3. استعلامات XPath</text>
     </block>
-    <block id="tp1_section_xpath_text">
-        <text lang="fr">À partir du fichier XML précédent, j'ai utilisé un testeur XPath en ligne pour : lister tous les titres, compter le nombre de tomes, compter les titres contenant « glace », isoler les albums évoquant la banquise, et compter les albums par nombre de mots dans le titre.</text>
-        <text lang="en">Using the previous XML file, I used an online XPath tester to: list all titles, count the number of volumes, count titles containing "glace", isolate volumes mentioning ice fields, and count volumes by number of words in the title.</text>
-        <text lang="ar">باستخدام ملف XML السابق، استعملت أداة اختبار XPath عبر الإنترنت لـ: سرد جميع العناوين، عد عدد الأجزاء، عد العناوين التي تحتوي على «glace»، عزل الألبومات التي تتحدث عن الجليد، وعد الألبومات بحسب عدد كلمات العنوان.</text>
+    <block id="tp1_ex_xpath_text">
+        <text lang="fr">À partir de ce même fichier, j'ai écrit des requêtes XPath pour répondre à des questions précises : compter le nombre de tomes (63), repérer ceux dont le titre contient « glace » (4), retrouver ceux qui parlent de banquise (4 également), ou encore compter ceux liés au champ lexical du froid au sens large — glace, froid, banquise — qui se sont révélés être 16 albums sur les 16 intégrales. Ce qui m'a le plus marquée, c'est de voir à quel point une syntaxe XPath compacte (un simple count() avec un contains() et une fonction translate() pour ignorer la casse) peut remplacer une recherche manuelle fastidieuse dans 63 lignes de texte.</text>
+        <text lang="en">Using this same file, I wrote XPath queries to answer specific questions: counting the volumes (63), finding the ones whose title contains "glace" (4), finding those mentioning ice fields (also 4), and counting those related to the broader theme of coldness — glace, froid, banquise — which turned out to be 16 volumes out of the 16 "Intégrale" collections. What struck me the most was seeing how a compact XPath expression (a simple count() with contains() and a translate() function to ignore case) can replace a tedious manual search through 63 lines of text.</text>
+        <text lang="ar">باستخدام هذا الملف نفسه، كتبت استعلامات XPath للإجابة عن أسئلة محددة: عد الأجزاء (63)، إيجاد تلك التي يحتوي عنوانها على «glace» (4)، إيجاد تلك التي تتحدث عن الجليد (4 أيضًا)، وعد تلك المرتبطة بالحقل المعجمي للبرودة بشكل أوسع — glace، froid، banquise — والتي تبيّن أنها 16 مجلدًا من أصل 16 مجلدًا. ما أثار انتباهي أكثر هو رؤية كيف يمكن لتعبير XPath مضغوط (دالة count() بسيطة مع contains() ودالة translate() لتجاهل حالة الأحرف) أن تحل محل بحث يدوي مضنٍ في 63 سطرًا من النص.</text>
     </block>
+    
+    <block id="tp1_section_svg3">
+        <text lang="fr">4. Exercice 3 — SVG par la pratique</text>
+        <text lang="en">4. Exercise 3 — SVG in practice</text>
+        <text lang="ar">4. التمرين 3 — SVG عمليًا</text>
+    </block>
+    <block id="tp1_ex3_text">
+        <text lang="fr">Ici, j'ai créé un faire-part animé en SVG pour annoncer la formation de notre groupe de projet, avec une animation d'au moins 5 secondes construite à partir d'un fichier XML source. Avant cet exercice, le SVG n'était pour moi qu'un format d'image parmi d'autres ; j'ai découvert que c'était en réalité un langage à part entière, avec ses propres balises et la possibilité d'y intégrer des animations directement dans le fichier, sans JavaScript.</text>
+        <text lang="en">Here, I created an animated SVG announcement for the formation of our project group, with an animation lasting at least 5 seconds built from an XML source file. Before this exercise, SVG was just another image format to me; I discovered it is actually a full language of its own, with its own tags and the ability to embed animations directly in the file, without JavaScript.</text>
+        <text lang="ar">هنا، أنشأت بطاقة إعلان متحركة بصيغة SVG للإعلان عن تأسيس فريق مشروعنا، مع رسم متحرك مدته 5 ثوانٍ على الأقل، مبني من ملف مصدر XML. قبل هذا التمرين، كان SVG بالنسبة لي مجرد صيغة صورة من بين أخرى؛ اكتشفت أنه في الواقع لغة كاملة بحد ذاتها، بوسومها الخاصة وإمكانية تضمين رسوم متحركة مباشرة داخل الملف، دون JavaScript.</text>
+    </block>
+    
     <block id="tp1_section_svg">
-        <text lang="fr">4. SVG animé</text>
-        <text lang="en">4. Animated SVG</text>
-        <text lang="ar">4. رسم SVG متحرك</text>
+        <text lang="fr">5. Exercice 4 — SVG, encore plus loin</text>
+        <text lang="en">5. Exercise 4 — SVG, going further</text>
+        <text lang="ar">5. التمرين 4 — SVG، أبعد من ذلك</text>
     </block>
-    <block id="tp1_section_svg_text">
-        <text lang="fr">J'ai réalisé un faire-part SVG animé (durée minimale de 5 secondes) annonçant la création du groupe de projet, validé sur le validateur W3C.</text>
-        <text lang="en">I created an animated SVG announcement (at least 5 seconds long) announcing the creation of the project group, validated with the W3C validator.</text>
-        <text lang="ar">أنشأت بطاقة إعلان SVG متحركة (مدتها 5 ثوانٍ على الأقل) للإعلان عن تأسيس فريق المشروع، تم التحقق منها عبر أداة التحقق W3C.</text>
+    <block id="tp1_ex4_text">
+        <text lang="fr">Pour aller plus loin, on devait détourner une image en y intégrant au moins deux fichiers SVG, dans un esprit humoristique mais respectueux. Avec mon groupe, on a choisi de composer une fausse couverture de magazine nature intitulée « Forêt Mag », en plaçant un tigre en SVG comme personnage principal. Le plus formateur a été de comprendre comment superposer et positionner deux images SVG indépendantes pour qu'elles se combinent naturellement, puis de valider le tout sur le validateur du W3C jusqu'à obtenir zéro erreur — ce qui demande souvent plus de rigueur qu'on ne le pense au premier abord sur les espaces de noms et la syntaxe SVG.</text>
+        <text lang="en">To go further, we had to edit an image by combining at least two SVG files, in a humorous but respectful way. With my group, we chose to design a fake nature magazine cover titled "Forêt Mag", placing an SVG tiger as the main character. The most instructive part was understanding how to overlay and position two independent SVG images so they combine naturally, then validating everything against the W3C validator until reaching zero errors — which usually demands more rigor than expected regarding namespaces and SVG syntax.</text>
+        <text lang="ar">للذهاب أبعد من ذلك، كان علينا تعديل صورة بدمج صورتي SVG على الأقل، بروح طريفة ومحترمة. اخترنا مع فريقي تصميم غلاف مزيف لمجلة طبيعة بعنوان «Forêt Mag»، مع وضع نمر بصيغة SVG كشخصية رئيسية. كان الجانب الأكثر تعليمًا هو فهم كيفية تراكب وتموضع صورتي SVG مستقلتين بحيث تتركبان بشكل طبيعي، ثم التحقق من كل ذلك عبر أداة تحقق W3C حتى الوصول إلى صفر أخطاء — وهو ما يتطلب غالبًا دقة أكبر مما هو متوقع فيما يتعلق بمساحات الأسماء وصياغة SVG.</text>
     </block>
+
 
     <!-- Page TP2-->
     <block id="tp2_title_tag">
