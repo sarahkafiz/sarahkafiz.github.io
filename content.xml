@@ -658,9 +658,6 @@
     </block>
 
     <!-- Page TP3-->
-      <!-- ============================================================
-       PAGE TP3
-       ============================================================ -->
     <block id="tp3_title_tag">
         <text lang="fr">TP3 — RDF et Corese — Sarah KAFIZ</text>
         <text lang="en">Lab 3 — RDF and Corese — Sarah KAFIZ</text>
@@ -733,40 +730,64 @@
 
     <!--Page TP4-->
     <block id="tp4_title_tag">
-        <text lang="fr">TP4 — Parlement européen — PRENOM NOM</text>
-        <text lang="en">Lab 4 — European Parliament — FIRSTNAME LASTNAME</text>
-        <text lang="ar">العمل التطبيقي 4 — البرلمان الأوروبي — PRENOM NOM</text>
+        <text lang="fr">TP4 — Unicode et Parlement européen — Sarah KAFIZ</text>
+        <text lang="en">Lab 4 — Unicode and European Parliament — Sarah KAFIZ</text>
+        <text lang="ar">العمل التطبيقي 4 — يونيكود والبرلمان الأوروبي — صارة كافيز</text>
     </block>
     <block id="tp4_h1">
-        <text lang="fr">TP4 — Transcription du Parlement européen</text>
-        <text lang="en">Lab 4 — European Parliament transcripts</text>
-        <text lang="ar">العمل التطبيقي 4 — محاضر البرلمان الأوروبي</text>
+        <text lang="fr">TP4 — Unicode et Parlement européen</text>
+        <text lang="en">Lab 4 — Unicode and European Parliament</text>
+        <text lang="ar">العمل التطبيقي 4 — يونيكود والبرلمان الأوروبي</text>
     </block>
     <block id="tp4_intro">
-        <text lang="fr">Ce TP demande de modéliser en XML Schema l'ensemble des données nécessaires pour représenter les débats du Parlement européen, puis de transformer ce XML en HTML côté client avec XSLT 1.0, à l'image du rendu visible sur europarl.europa.eu.</text>
-        <text lang="en">This lab required modeling, in XML Schema, all the data needed to represent European Parliament debates, then transforming that XML into HTML on the client side with XSLT 1.0, similar to the rendering seen on europarl.europa.eu.</text>
-        <text lang="ar">يتطلب هذا العمل التطبيقي نمذجة جميع البيانات اللازمة لتمثيل نقاشات البرلمان الأوروبي بصيغة XML Schema، ثم تحويل هذا XML إلى HTML من جانب العميل باستخدام XSLT 1.0، على غرار العرض الظاهر في موقع europarl.europa.eu.</text>
+        <text lang="fr">Ce TP regroupe deux exercices : recoder à la main les transformations Unicode en PHP, puis modéliser et transformer en XSLT les débats du Parlement européen.</text>
+        <text lang="en">This lab combines two exercises: hand-coding Unicode transformations in PHP, then modeling and transforming European Parliament debates with XSLT.</text>
+        <text lang="ar">يجمع هذا العمل التطبيقي بين تمرينين: إعادة ترميز تحويلات يونيكود يدويًا بلغة PHP، ثم نمذجة وتحويل نقاشات البرلمان الأوروبي باستخدام XSLT.</text>
     </block>
+    <block id="tp4_wiki_label">
+        <text lang="fr">Le wiki de description de travail de ce TP se trouve ici :</text>
+        <text lang="en">The wiki describing the work for this lab can be found here:</text>
+        <text lang="ar">يوجد ويكي وصف العمل لهذا العمل التطبيقي هنا:</text>
+    </block>
+    <block id="tp4_wiki_link">
+        <text lang="fr">Wiki du groupe — TP4</text>
+        <text lang="en">Group wiki — Lab 4</text>
+        <text lang="ar">ويكي الفريق — العمل التطبيقي 4</text>
+    </block>
+    
+    <block id="tp4_section_unicode">
+        <text lang="fr">1. Encodage Unicode en PHP</text>
+        <text lang="en">1. Unicode encoding in PHP</text>
+        <text lang="ar">1. ترميز يونيكود بلغة PHP</text>
+    </block>
+    <block id="tp4_ex_unicode_text">
+        <text lang="fr">On a codé en PHP un convertisseur qui affiche un caractère saisi par l'utilisateur dans trois formats (UCS-4, UTF-8, UTF-16BE), sans aucune fonction toute faite de conversion : uniquement des décalages de bits (&lt;&lt;, &gt;&gt;), des masques (&amp;, |) et ord()/chr(). Le plus formateur a été le décodage : le navigateur envoie déjà la saisie en UTF-8, donc on doit d'abord regarder le premier octet reçu pour savoir sur combien d'octets le caractère est codé, avant de recomposer le point de code en assemblant les bits utiles de chaque octet. Refaire ça à la main rend très concret ce qui reste abstrait quand on utilise une librairie : UTF-8 et UTF-16 ne sont jamais que deux façons différentes d'empaqueter le même nombre.</text>
+        <text lang="en">We coded a PHP converter in PHP that displays a user-entered character in three formats (UCS-4, UTF-8, UTF-16BE), with no ready-made conversion function at all: only bit shifts (&lt;&lt;, &gt;&gt;), masks (&amp;, |) and ord()/chr(). The most instructive part was decoding: the browser already sends the input in UTF-8, so we first have to look at the first received byte to know how many bytes the character is encoded on, before reassembling the code point from the useful bits of each byte. Doing this by hand makes something that stays abstract when using a library very concrete: UTF-8 and UTF-16 are really just two different ways of packaging the same number.</text>
+        <text lang="ar">قمنا بترميز محوّل بلغة PHP يعرض حرفًا أدخله المستخدم بثلاث صيغ (UCS-4، UTF-8، UTF-16BE)، دون أي دالة تحويل جاهزة على الإطلاق: فقط إزاحات البتات (&lt;&lt;، &gt;&gt;)، الأقنعة (&amp;، |) ودالتي ord()/chr(). كان الجانب الأكثر تعليمًا هو فك الترميز: يرسل المتصفح الإدخال مُرمّزًا بصيغة UTF-8 مسبقًا، فيجب أولاً فحص أول بايت مستلم لمعرفة عدد البايتات التي يُرمّز بها الحرف، قبل إعادة تجميع نقطة الكود من البتات المفيدة في كل بايت. القيام بذلك يدويًا يجعل ما يبقى مجرّدًا عند استخدام مكتبة جاهزة ملموسًا جدًا: UTF-8 و UTF-16 ليسا في النهاية إلا طريقتين مختلفتين لتعبئة نفس الرقم.</text>
+    </block>
+    
     <block id="tp4_section_schema">
-        <text lang="fr">1. XML Schema</text>
-        <text lang="en">1. XML Schema</text>
-        <text lang="ar">1. XML Schema</text>
+        <text lang="fr">2. XML Schema pour le Parlement européen</text>
+        <text lang="en">2. XML Schema for the European Parliament</text>
+        <text lang="ar">2. XML Schema للبرلمان الأوروبي</text>
     </block>
-    <block id="tp4_section_schema_text">
-        <text lang="fr">J'ai défini des types simples (code pays ISO 3166, code langue ISO 639, période de mandature) et des types complexes (pays, mouvement politique national, député européen, séance, point d'ordre du jour, intervention), avec une contrainte de clé garantissant que toute intervention est attribuée à un interlocuteur réellement répertorié (député ou commissaire).</text>
-        <text lang="en">I defined simple types (ISO 3166 country code, ISO 639 language code, term period) and complex types (country, national political movement, MEP, sitting, agenda item, speech), with a key constraint ensuring every speech is attributed to an actually listed speaker (MEP or commissioner).</text>
-        <text lang="ar">حددت أنواعًا بسيطة (رمز بلد ISO 3166، رمز لغة ISO 639، فترة الولاية) وأنواعًا معقدة (بلد، حركة سياسية وطنية، نائب أوروبي، جلسة، نقطة جدول الأعمال، تدخل)، مع قيد مفتاح يضمن أن كل تدخل منسوب إلى متحدث مدرج فعلاً (نائب أو مفوض).</text>
+    <block id="tp4_ex_schema_text">
+        <text lang="fr">Avant de modéliser, on a dû se demander pourquoi XML plutôt qu'une base relationnelle : un compte-rendu de débat est fondamentalement hiérarchique (séance → point d'ordre du jour → intervention → texte), un ordre que XML préserve naturellement alors qu'une base aurait demandé plusieurs tables et des jointures. On a ensuite identifié que le type racine d'une page de transcription est le point d'ordre du jour (avec son titre, son heure et ses interventions), englobé dans une racine plus générale. Le schéma XSD final définit des types simples (code pays, code langue, période de mandature) et des types complexes (député, commissaire, séance, intervention), avec une contrainte de clé garantissant que toute intervention est bien attribuée à un interlocuteur réellement répertorié.</text>
+        <text lang="en">Before modeling, we had to ask ourselves why XML rather than a relational database: a debate transcript is fundamentally hierarchical (sitting → agenda item → speech → text), an order XML preserves naturally, whereas a database would have required several tables and joins. We then identified that the root type of a transcript page is the agenda item (with its title, time and speeches), wrapped in a broader root. The final XSD schema defines simple types (country code, language code, term period) and complex types (MEP, commissioner, sitting, speech), with a key constraint ensuring every speech is genuinely attributed to a listed speaker.</text>
+        <text lang="ar">قبل النمذجة، تساءلنا لماذا XML بدلاً من قاعدة بيانات علائقية: محضر نقاش هو بطبيعته هرمي (جلسة ← نقطة جدول أعمال ← تدخل ← نص)، ترتيب يحافظ عليه XML بشكل طبيعي، في حين تتطلب قاعدة بيانات عدة جداول وعمليات ربط. حددنا بعد ذلك أن النوع الجذري لصفحة محاضر هو نقطة جدول الأعمال (بعنوانها وتوقيتها وتدخلاتها)، مضمّنة في جذر أوسع. يحدد مخطط XSD النهائي أنواعًا بسيطة (رمز بلد، رمز لغة، فترة ولاية) وأنواعًا معقدة (نائب، مفوض، جلسة، تدخل)، مع قيد مفتاح يضمن أن كل تدخل منسوب فعليًا إلى متحدث مدرج.</text>
     </block>
+    
     <block id="tp4_section_xslt">
-        <text lang="fr">2. Transformation XSLT</text>
-        <text lang="en">2. XSLT transformation</text>
-        <text lang="ar">2. تحويل XSLT</text>
+        <text lang="fr">3. Transformation XSLT</text>
+        <text lang="en">3. XSLT transformation</text>
+        <text lang="ar">3. تحويل XSLT</text>
     </block>
-    <block id="tp4_section_xslt_text">
-        <text lang="fr">J'ai créé un document XML conforme à mon schéma pour le point 14 de la séance du 14 janvier 2020, validé avec xmllint --schema, puis une feuille XSLT 1.0 transformant ce document XML en un rendu HTML côté client proche de celui du site officiel.</text>
-        <text lang="en">I created an XML document conforming to my schema for item 14 of the sitting of January 14, 2020, validated with xmllint --schema, then an XSLT 1.0 stylesheet transforming this XML document into a client-side HTML rendering close to that of the official site.</text>
-        <text lang="ar">أنشأت وثيقة XML متوافقة مع مخططي للنقطة 14 من جلسة 14 يناير 2020، تم التحقق منها باستخدام xmllint --schema، ثم ورقة XSLT 1.0 تحوّل هذه الوثيقة إلى عرض HTML من جانب العميل قريب من عرض الموقع الرسمي.</text>
+    <block id="tp4_ex_xslt_text">
+        <text lang="fr">On a créé un document XML conforme au schéma, reprenant le point 14 de la séance du 14 janvier 2020 (sans toutes les interventions, pour rester gérable), validé avec xmllint --schema. La feuille XSLT 1.0 transforme ensuite ce XML en un rendu HTML côté client proche de celui du site officiel — contrairement au site réel, où la transformation se fait côté serveur et où l'on ne voit jamais que le HTML final.</text>
+        <text lang="en">We created an XML document conforming to the schema, covering item 14 of the sitting of January 14, 2020 (without every single speech, to keep it manageable), validated with xmllint --schema. The XSLT 1.0 stylesheet then transforms this XML into a client-side HTML rendering close to that of the official site — unlike the real site, where the transformation happens server-side and only the final HTML is ever visible.</text>
+        <text lang="ar">أنشأنا وثيقة XML متوافقة مع المخطط، تغطي النقطة 14 من جلسة 14 يناير 2020 (دون كل التدخلات، لتبقى الوثيقة قابلة للتدبير)، تم التحقق منها باستخدام xmllint --schema. تحوّل ورقة XSLT 1.0 بعد ذلك هذا XML إلى عرض HTML من جانب العميل قريب من عرض الموقع الرسمي — بخلاف الموقع الحقيقي، حيث يتم التحويل من جانب الخادم ولا يُرى سوى HTML النهائي أبدًا.</text>
     </block>
+
 
     <!-- PAge TP5-->
     <block id="tp5_title_tag">

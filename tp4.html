@@ -8,51 +8,63 @@
               foaf: http://xmlns.com/foaf/0.1/
               schema: https://schema.org/">
 <head>
-    <meta charset="UTF-8" />
-    <title property="dc:title" data-i18n="tp4_title_tag">TP4 — Parlement européen — Sarah KAFIZ</title>
-    <meta property="dc:creator" content="PRENOM NOM" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="assets/js/site.js" defer="defer"></script>
+  <meta charset="UTF-8" />
+  <title property="dc:title" data-i18n="tp4_title_tag">TP4 — Unicode et Parlement européen — Sarah KAFIZ</title>
+  <meta property="dc:creator" content="Sarah KAFIZ" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/site.js" defer="defer"></script>
 </head>
 <body typeof="schema:LearningResource" resource="#tp4">
-    <header class="site-header">
-        <a class="brand" href="index.html" data-i18n="home_name">Sarah KAFIZ</a>
-        <div class="header-right">
-            <nav class="main-nav">
-                <a href="index.html" data-i18n="nav_accueil">Accueil</a>
-                <a href="cv.html" class="current" data-i18n="nav_cv">CV</a>
-                <a href="travaux.html" data-i18n="nav_travaux">Travaux</a>
-            </nav>
-            <div id="lang-switcher">
-                <select aria-label="Choisir la langue">
-                <option value="fr">Français</option>
-                <option value="en">English</option>
-                <option value="ar">العربية</option>
-                </select>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="intro-block">
-        <p class="contact-line"><a href="travaux-web-semantique.html" data-i18n="ws_back_link">← Travaux</a></p>
-        <h1 property="schema:name dc:title" data-i18n="tp4_h1">TP4 — Transcription du Parlement européen</h1>
-        <p data-i18n="tp4_intro" property="schema:description dc:description">
-            Introduction du TP4.
-        </p>
-        </div>
 
-        <h2 data-i18n="tp4_section_schema">1. XML Schema</h2>
-        <p data-i18n="tp4_section_schema_text">Texte.</p>
+  <header class="site-header">
+    <a class="brand" href="index.html" data-i18n="home_name">Sarah KAFIZ</a>
+    <div class="header-right">
+      <nav class="main-nav">
+        <a href="index.html" data-i18n="nav_accueil">Accueil</a>
+        <a href="cv.html" data-i18n="nav_cv">CV</a>
+        <a href="travaux.html" class="current" data-i18n="nav_travaux">Travaux</a>
+      </nav>
+      <div id="lang-switcher">
+        <select aria-label="Choisir la langue">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+        </select>
+      </div>
+    </div>
+  </header>
 
-        <h2 data-i18n="tp4_section_xslt">2. Transformation XSLT</h2>
-        <p data-i18n="tp4_section_xslt_text">Texte.</p>
-    </main>
+  <main>
+    <div class="intro-block">
+      <p class="contact-line"><a href="travaux-web-semantique.html" data-i18n="ws_back_link">← Travaux</a></p>
+      <h1 property="schema:name dc:title" data-i18n="tp4_h1">TP4 — Unicode et Parlement européen</h1>
+      <p data-i18n="tp4_intro" property="schema:description dc:description">
+        Introduction du TP4.
+      </p>
+      <p class="contact-line">
+        <span data-i18n="tp4_wiki_label">Le wiki de description de travail de ce TP se trouve ici :</span>
+        <a href="https://portail-jn.fr/Portail_/claroline/wiki/page.php?wikiId=32&amp;action=show&amp;gidReset=true&amp;cidReset=true&amp;cidReq=WSAIR2_2526&amp;gidReq=1"
+           target="_blank" rel="noopener" data-i18n="tp4_wiki_link">
+          Wiki du groupe — TP4
+        </a>
+      </p>
+    </div>
 
-    <footer>
-        <p data-i18n="footer_text">Portfolio — FR / EN / AR</p>
-    </footer>
+    <h2 data-i18n="tp4_section_unicode">1. Encodage Unicode en PHP</h2>
+    <p data-i18n="tp4_ex_unicode_text">Texte.</p>
+
+    <h2 data-i18n="tp4_section_schema">2. XML Schema pour le Parlement européen</h2>
+    <p data-i18n="tp4_ex_schema_text">Texte.</p>
+
+    <h2 data-i18n="tp4_section_xslt">3. Transformation XSLT</h2>
+    <p data-i18n="tp4_ex_xslt_text">Texte.</p>
+  </main>
+
+  <footer>
+    <p data-i18n="footer_text">Portfolio — FR / EN / AR</p>
+  </footer>
 
 </body>
 </html>
