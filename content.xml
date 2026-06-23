@@ -495,9 +495,9 @@
 
     <!--  TP1 -->
     <block id="tp1_title_tag">
-        <text lang="fr">TP1 — XML bien formé et valide — PRENOM NOM</text>
-        <text lang="en">Lab 1 — Well-formed and valid XML — FIRSTNAME LASTNAME</text>
-        <text lang="ar">العمل التطبيقي 1 — XML سليم وصحيح — PRENOM NOM</text>
+        <text lang="fr">TP1 — XML bien formé et valide — Sarah KAFIZ</text>
+        <text lang="en">Lab 1 — Well-formed and valid XML — Sarah KAFIZ</text>
+        <text lang="ar">العمل التطبيقي 1 — صارة كافيز  — XML سليم وصحيح</text>
     </block>
     <block id="tp1_h1">
         <text lang="fr">TP1 — Bien formé, bien valide</text>
@@ -575,12 +575,11 @@
         <text lang="ar">للذهاب أبعد من ذلك، كان علينا تعديل صورة بدمج صورتي SVG على الأقل، بروح طريفة ومحترمة. اخترنا مع فريقي تصميم غلاف مزيف لمجلة طبيعة بعنوان «Forêt Mag»، مع وضع نمر بصيغة SVG كشخصية رئيسية. كان الجانب الأكثر تعليمًا هو فهم كيفية تراكب وتموضع صورتي SVG مستقلتين بحيث تتركبان بشكل طبيعي، ثم التحقق من كل ذلك عبر أداة تحقق W3C حتى الوصول إلى صفر أخطاء — وهو ما يتطلب غالبًا دقة أكبر مما هو متوقع فيما يتعلق بمساحات الأسماء وصياغة SVG.</text>
     </block>
 
-
-    <!-- Page TP2-->
+    <!-- TP2 -->
     <block id="tp2_title_tag">
-        <text lang="fr">TP2 — Unicode et XSLT — PRENOM NOM</text>
-        <text lang="en">Lab 2 — Unicode and XSLT — FIRSTNAME LASTNAME</text>
-        <text lang="ar">العمل التطبيقي 2 — يونيكود و XSLT — PRENOM NOM</text>
+        <text lang="fr">TP2 — Unicode et XSLT — Sarah KAFIZ</text>
+        <text lang="en">Lab 2 — Unicode and XSLT — Sarah KAFIZ</text>
+        <text lang="ar">العمل التطبيقي 2 — يونيكود و XSLT — صارة كافيز </text>
     </block>
     <block id="tp2_h1">
         <text lang="fr">TP2 — Unicode et XSLT</text>
@@ -588,46 +587,84 @@
         <text lang="ar">العمل التطبيقي 2 — يونيكود و XSLT</text>
     </block>
     <block id="tp2_intro">
-        <text lang="fr">Ce TP combine la modélisation de données XML (DTD, XSD avec contraintes de clé) et leur transformation visuelle avec XSLT 1.0, sur trois cas : une liste d'enseignants, un flux RSS, et des documents multilingues au format TMX.</text>
-        <text lang="en">This lab combines XML data modeling (DTD, XSD with key constraints) and visual transformation with XSLT 1.0, applied to three cases: a teacher list, an RSS feed, and multilingual TMX documents.</text>
-        <text lang="ar">يجمع هذا العمل التطبيقي بين نمذجة بيانات XML (DTD، XSD مع قيود المفاتيح) وتحويلها بصريًا باستخدام XSLT 1.0، في ثلاث حالات: قائمة أساتذة، تغذية RSS، ووثائق متعددة اللغات بصيغة TMX.</text>
+        <text lang="fr">Ce TP m'a fait passer de la simple écriture de XML à sa modélisation rigoureuse (DTD, XSD, contraintes de clé) et à sa transformation visuelle avec XSLT, sur des cas très concrets : une liste d'enseignants, une formation universitaire, un flux RSS, et un texte juridique multilingue.</text>
+        <text lang="en">This lab took me from simply writing XML to rigorously modeling it (DTD, XSD, key constraints) and visually transforming it with XSLT, on very concrete cases: a teacher list, a university curriculum, an RSS feed, and a multilingual legal text.</text>
+        <text lang="ar">جعلني هذا العمل التطبيقي أنتقل من كتابة XML البسيطة إلى نمذجته بدقة (DTD، XSD، قيود المفاتيح) وتحويله بصريًا باستخدام XSLT، في حالات ملموسة جدًا: قائمة أساتذة، تكوين جامعي، تغذية RSS، ونص قانوني متعدد اللغات.</text>
     </block>
-    <block id="tp2_section_schema">
-        <text lang="fr">1. DTD et XML Schema</text>
-        <text lang="en">1. DTD and XML Schema</text>
-        <text lang="ar">1. DTD و XML Schema</text>
+    <block id="tp2_wiki_label">
+        <text lang="fr">Le wiki de description de travail de ce TP se trouve ici :</text>
+        <text lang="en">The wiki describing the work for this lab can be found here:</text>
+        <text lang="ar">يوجد ويكي وصف العمل لهذا العمل التطبيقي هنا:</text>
     </block>
-    <block id="tp2_section_schema_text">
-        <text lang="fr">J'ai créé une DTD et un XML Schema pour modéliser une liste d'enseignants, puis un second schéma pour une formation composée de modules (code, intitulé, crédits ECTS) reliés à des enseignants — avec une contrainte de clé garantissant que chaque enseignant cité dans un module existe bien dans la liste des enseignants.</text>
-        <text lang="en">I created a DTD and an XML Schema to model a list of teachers, then a second schema for a curriculum made up of modules (code, title, ECTS credits) linked to teachers — with a key constraint ensuring every teacher referenced in a module actually exists in the teacher list.</text>
-        <text lang="ar">أنشأت DTD و XML Schema لنمذجة قائمة أساتذة، ثم مخططًا ثانيًا لتكوين مكوّن من وحدات (رمز، عنوان، نقاط ECTS) مرتبطة بأساتذة — مع قيد مفتاح يضمن أن كل أستاذ مذكور في وحدة موجود فعلاً في قائمة الأساتذة.</text>
+    <block id="tp2_wiki_link">
+        <text lang="fr">Wiki du groupe — TP2</text>
+        <text lang="en">Group wiki — Lab 2</text>
+        <text lang="ar">ويكي الفريق — العمل التطبيقي 2</text>
     </block>
-    <block id="tp2_section_xslt">
-        <text lang="fr">2. Transformation XSLT</text>
-        <text lang="en">2. XSLT transformation</text>
-        <text lang="ar">2. تحويل XSLT</text>
+    
+    <block id="tp2_section_ex1">
+        <text lang="fr">1. Exercice 1 — DTD et XML Schema pour enseignants.xml</text>
+        <text lang="en">1. Exercise 1 — DTD and XML Schema for enseignants.xml</text>
+        <text lang="ar">1. التمرين 1 — DTD و XML Schema لملف enseignants.xml</text>
     </block>
-    <block id="tp2_section_xslt_text">
-        <text lang="fr">J'ai écrit une feuille XSLT affichant la liste des enseignants sous forme de tableau directement dans le navigateur, puis une seconde feuille XSLT transformant un flux RSS (actualités du Monde) en grille de zones rectangulaires (titre, image, description, date).</text>
-        <text lang="en">I wrote an XSLT stylesheet displaying the teacher list as a table directly in the browser, then a second XSLT stylesheet transforming an RSS feed (Le Monde news) into a grid of rectangular boxes (title, image, description, date).</text>
-        <text lang="ar">كتبت ورقة أسلوب XSLT تعرض قائمة الأساتذة في شكل جدول مباشرة في المتصفح، ثم ورقة ثانية تحوّل تغذية RSS (أخبار صحيفة لوموند) إلى شبكة من المربعات (العنوان، الصورة، الوصف، التاريخ).</text>
+    <block id="tp2_ex1_text">
+        <text lang="fr">Pour ce premier exercice, j'ai écrit une DTD puis un XSD décrivant exactement la même structure : une liste d'enseignants avec prénom, nom et laboratoire obligatoires, et note, téléphone et équipe optionnels (marqués avec « ? » en DTD, ou minOccurs="0" en XSD). J'ai compris en pratique la différence entre les deux langages sur deux points précis : en XSD, xs:enumeration permet de limiter l'attribut sexe aux seules valeurs « m » ou « f » de façon bien plus propre qu'en DTD, et mixed="true" permet d'autoriser le mélange de texte et de balises (comme &lt;b&gt;) dans l'élément note, ce que la DTD gérait avec un contenu mixte (#PCDATA|b)*. Valider avec xmllint --dtdvalid puis xmllint --schema m'a aussi montré que les deux outils utilisent une syntaxe en ligne de commande presque identique malgré des grammaires très différentes derrière.</text>
+        <text lang="en">For this first exercise, I wrote a DTD and then an XSD describing exactly the same structure: a list of teachers with mandatory first name, last name and lab, and optional note, phone and team (marked with "?" in the DTD, or minOccurs="0" in the XSD). I understood in practice the difference between the two languages on two specific points: in XSD, xs:enumeration restricts the sexe attribute to only "m" or "f" much more cleanly than in DTD, and mixed="true" allows mixing text and tags (like &lt;b&gt;) inside the note element, which the DTD handled with mixed content (#PCDATA|b)*. Validating with xmllint --dtdvalid then xmllint --schema also showed me that both tools use almost identical command-line syntax despite very different grammars behind them.</text>
+        <text lang="ar">في هذا التمرين الأول، كتبت DTD ثم XSD يصفان البنية نفسها بالضبط: قائمة أساتذة بحقول إلزامية للاسم الأول واسم العائلة والمختبر، وحقول اختيارية للملاحظة والهاتف والفرقة (معلّمة بعلامة «؟» في DTD، أو minOccurs="0" في XSD). فهمت عمليًا الفرق بين اللغتين في نقطتين محددتين: في XSD، تسمح xs:enumeration بحصر خاصية sexe على القيمتين «m» أو «f» فقط بشكل أنظف بكثير من DTD، وتسمح mixed="true" بدمج النص والوسوم (مثل &lt;b&gt;) داخل عنصر note، وهو ما تعاملت معه DTD بمحتوى مختلط (#PCDATA|b)*. التحقق باستخدام xmllint --dtdvalid ثم xmllint --schema أظهر لي أيضًا أن الأداتين تستخدمان صياغة سطر أوامر متشابهة تقريبًا على الرغم من اختلاف القواعد النحوية وراءهما بشكل كبير.</text>
     </block>
-    <block id="tp2_section_tmx">
-        <text lang="fr">3. Documents multilingues (TMX)</text>
-        <text lang="en">3. Multilingual documents (TMX)</text>
-        <text lang="ar">3. وثائق متعددة اللغات (TMX)</text>
+    
+    <block id="tp2_section_ex2">
+        <text lang="fr">2. Exercice 2 — Schéma XML avec contraintes de clé</text>
+        <text lang="en">2. Exercise 2 — XML Schema with key constraints</text>
+        <text lang="ar">2. التمرين 2 — مخطط XML مع قيود المفاتيح</text>
     </block>
-    <block id="tp2_section_tmx_text">
-        <text lang="fr">À partir d'un corpus DGT-TM (mémoire de traduction au format TMX), j'ai ajouté une liste de 3 langues prioritaires dans l'en-tête du document, puis écrit une feuille XSLT affichant le texte aligné par blocs de trois lignes, une par langue choisie.</text>
-        <text lang="en">Using a DGT-TM corpus (translation memory in TMX format), I added a list of 3 priority languages in the document header, then wrote an XSLT stylesheet displaying the text aligned in blocks of three lines, one per selected language.</text>
-        <text lang="ar">باستخدام مجموعة بيانات DGT-TM (ذاكرة ترجمة بصيغة TMX)، أضفت قائمة من 3 لغات ذات أولوية في رأس الوثيقة، ثم كتبت ورقة XSLT تعرض النص محاذيًا في مجموعات من ثلاثة أسطر، سطر لكل لغة مختارة.</text>
+    <block id="tp2_ex2_text">
+        <text lang="fr">Cet exercice m'a fait modéliser une formation universitaire complète en XSD : un élément racine formation contenant une liste d'enseignants (identifiant, sexe, nom, prénom, corps parmi MCF/PR/PAST/ATER, discipline CNU optionnelle) et une liste de modules (code, intitulé, crédits ECTS, enseignants intervenants). La vraie difficulté — et le vrai apprentissage — a été de garantir l'intégrité référentielle entre les deux listes : un enseignant cité dans un module doit obligatoirement exister dans la liste globale des enseignants. C'est la première fois que je manipulais xs:key et xs:keyref pour exprimer ce genre de contrainte directement dans le schéma plutôt que de la vérifier « à la main » dans le code.</text>
+        <text lang="en">This exercise had me model a complete university curriculum in XSD: a root element formation containing a list of teachers (id, sex, first name, last name, category among MCF/PR/PAST/ATER, optional CNU discipline) and a list of modules (code, title, ECTS credits, involved teachers). The real difficulty — and the real learning — was guaranteeing referential integrity between the two lists: a teacher mentioned in a module must necessarily exist in the global teacher list. This was the first time I used xs:key and xs:keyref to express this kind of constraint directly in the schema rather than checking it "by hand" in the code.</text>
+        <text lang="ar">جعلني هذا التمرين أنمذج تكوينًا جامعيًا كاملًا بصيغة XSD: عنصر جذري formation يحتوي على قائمة أساتذة (معرّف، جنس، اسم، لقب، فئة من بين MCF/PR/PAST/ATER، تخصص CNU اختياري) وقائمة وحدات (رمز، عنوان، نقاط ECTS، أساتذة متدخلون). الصعوبة الحقيقية — والتعلّم الحقيقي — كانت ضمان سلامة الإحالات بين القائمتين: يجب أن يكون كل أستاذ مذكور في وحدة موجودًا بالضرورة في قائمة الأساتذة العامة. كانت هذه أول مرة أستخدم فيها xs:key و xs:keyref للتعبير عن هذا النوع من القيود مباشرة في المخطط بدلاً من التحقق منه «يدويًا» في الكود.</text>
+    </block>
+    
+    <block id="tp2_section_ex3">
+        <text lang="fr">3. Exercice 3 — Transformation XSLT d'un tableau</text>
+        <text lang="en">3. Exercise 3 — XSLT transformation into a table</text>
+        <text lang="ar">3. التمرين 3 — تحويل XSLT إلى جدول</text>
+    </block>
+    <block id="tp2_ex3_text">
+        <text lang="fr">Ici, j'ai écrit une feuille XSLT (enseignement.xsl) liée directement au fichier enseignants.xml, qui transforme la liste en un tableau HTML affiché dans Firefox — avec une boucle pour parcourir chaque enseignant, l'affichage conditionnel du texte « (pas d'équipe) » quand l'élément est absent, et une mise en forme différente selon le sexe (les enseignantes apparaissant en rose). J'ai dû lancer un petit serveur HTTP local en Python (python3 -m http.server) pour que la transformation s'applique correctement, ce qui m'a fait comprendre que les navigateurs n'exécutent pas toujours le XSLT correctement en ouverture directe d'un fichier local, contrairement à ce qu'on pourrait croire au premier abord.</text>
+        <text lang="en">Here, I wrote an XSLT stylesheet (enseignement.xsl) linked directly to the enseignants.xml file, transforming the list into an HTML table displayed in Firefox — with a loop iterating over each teacher, conditional display of "(pas d'équipe)" when the element is missing, and different formatting depending on sex (female teachers shown in pink). I had to launch a small local HTTP server in Python (python3 -m http.server) for the transformation to apply correctly, which made me realize browsers don't always execute XSLT properly when opening a local file directly, contrary to what one might initially assume.</text>
+        <text lang="ar">هنا، كتبت ورقة أسلوب XSLT (enseignement.xsl) مرتبطة مباشرة بملف enseignants.xml، تحوّل القائمة إلى جدول HTML يُعرض في Firefox — مع حلقة تكرار لكل أستاذ، وعرض شرطي لعبارة «(pas d'équipe)» عند غياب العنصر، وتنسيق مختلف بحسب الجنس (تظهر الأستاذات باللون الوردي). اضطررت إلى تشغيل خادم HTTP محلي صغير بلغة Python (python3 -m http.server) لكي يُطبَّق التحويل بشكل صحيح، وهو ما جعلني أدرك أن المتصفحات لا تنفّذ XSLT بشكل صحيح دائمًا عند فتح ملف محلي مباشرة، خلافًا لما قد يُفترض في البداية.</text>
+    </block>
+    
+    <block id="tp2_section_ex4">
+        <text lang="fr">4. Exercice 4 — Présentation d'un flux RSS</text>
+        <text lang="en">4. Exercise 4 — RSS feed presentation</text>
+        <text lang="ar">4. التمرين 4 — عرض تغذية RSS</text>
+    </block>
+    <block id="tp2_ex4_text">
+        <text lang="fr">Pour cet exercice, j'ai téléchargé le flux RSS du Monde et écrit une feuille XSLT (lemonde.xsl) qui transforme chaque article en une carte rectangulaire (titre en gras, image cliquable vers l'article, description, date), organisées en grille. J'ai validé la transformation avec xsltproc en ligne de commande avant même de l'ouvrir dans le navigateur, ce qui m'a permis de détecter les erreurs de syntaxe XSLT bien plus vite qu'en rechargeant sans cesse la page. C'est aussi cet exercice qui m'a fait vraiment comprendre la puissance du XSLT pour transformer un flux de données externe et changeant (les actualités) en présentation visuelle cohérente, sans toucher une seule ligne de HTML à la main.</text>
+        <text lang="en">For this exercise, I downloaded Le Monde's RSS feed and wrote an XSLT stylesheet (lemonde.xsl) transforming each article into a rectangular card (bold title, clickable image linking to the article, description, date), arranged in a grid. I validated the transformation with xsltproc on the command line even before opening it in the browser, which let me catch XSLT syntax errors much faster than by constantly reloading the page. This exercise also really made me understand the power of XSLT for turning an external, changing data feed (the news) into a coherent visual presentation, without touching a single line of HTML by hand.</text>
+        <text lang="ar">في هذا التمرين، نزّلت تغذية RSS من صحيفة لوموند وكتبت ورقة أسلوب XSLT (lemonde.xsl) تحوّل كل مقالة إلى بطاقة مستطيلة (عنوان بخط عريض، صورة قابلة للنقر ترتبط بالمقالة، وصف، تاريخ)، منظّمة في شبكة. تحققت من التحويل باستخدام xsltproc في سطر الأوامر حتى قبل فتحه في المتصفح، وهو ما سمح لي باكتشاف أخطاء صياغة XSLT أسرع بكثير من إعادة تحميل الصفحة باستمرار. هذا التمرين هو أيضًا ما جعلني أفهم حقًا قوة XSLT في تحويل تغذية بيانات خارجية ومتغيرة (الأخبار) إلى عرض بصري متماسك، دون لمس سطر واحد من HTML يدويًا.</text>
+    </block>
+    
+    <block id="tp2_section_ex5">
+        <text lang="fr">5. Exercice 5 — Visualisation de textes multilingues (TMX)</text>
+        <text lang="en">5. Exercise 5 — Multilingual text visualization (TMX)</text>
+        <text lang="ar">5. التمرين 5 — عرض نصوص متعددة اللغات (TMX)</text>
+    </block>
+    <block id="tp2_ex5_text">
+        <text lang="fr">Le dernier exercice portait sur un document TMX (Translation Memory eXchange) contenant un règlement juridique européen traduit en plusieurs langues. J'ai ajouté dans l'en-tête une liste ordonnée de trois langues prioritaires (FR-FR, EN-GB, DE-DE), puis écrit une feuille XSLT qui parcourt chaque unité de traduction &lt;tu&gt; pour n'en extraire que les trois &lt;tuv&gt; correspondant à ces langues, alignées par blocs de trois lignes. Le fichier source étant encodé en UTF-16, j'ai dû utiliser xsltproc plutôt qu'un simple lien &lt;?xml-stylesheet?&gt; dans Firefox pour générer le HTML final. Cet exercice m'a fait prendre conscience, très concrètement, que le choix d'un encodage de caractères a un impact direct sur les outils qu'on peut utiliser pour traiter un document, et pas seulement sur son affichage visuel.</text>
+        <text lang="en">The last exercise involved a TMX (Translation Memory eXchange) document containing a European legal regulation translated into several languages. I added an ordered list of three priority languages in the header (FR-FR, EN-GB, DE-DE), then wrote an XSLT stylesheet iterating over each translation unit &lt;tu&gt; to extract only the three &lt;tuv&gt; elements matching those languages, aligned in blocks of three lines. Since the source file was encoded in UTF-16, I had to use xsltproc rather than a simple &lt;?xml-stylesheet?&gt; link in Firefox to generate the final HTML. This exercise made me realize, very concretely, that choosing a character encoding has a direct impact on the tools one can use to process a document, not just on its visual display.</text>
+        <text lang="ar">تناول التمرين الأخير وثيقة TMX (Translation Memory eXchange) تحتوي على لائحة قانونية أوروبية مترجمة إلى عدة لغات. أضفت في الرأس قائمة مرتبة من ثلاث لغات ذات أولوية (FR-FR، EN-GB، DE-DE)، ثم كتبت ورقة أسلوب XSLT تمر على كل وحدة ترجمة &lt;tu&gt; لاستخراج عناصر &lt;tuv&gt; الثلاثة المطابقة لهذه اللغات فقط، محاذاة في مجموعات من ثلاثة أسطر. وبما أن الملف المصدر كان مرمّزًا بصيغة UTF-16، اضطررت لاستخدام xsltproc بدلاً من رابط &lt;?xml-stylesheet?&gt; بسيط في Firefox لتوليد HTML النهائي. جعلني هذا التمرين أدرك بشكل ملموس جدًا أن اختيار ترميز الأحرف له تأثير مباشر على الأدوات التي يمكن استخدامها لمعالجة وثيقة، لا فقط على عرضها البصري.</text>
     </block>
 
     <!-- Page TP3-->
+      <!-- ============================================================
+       PAGE TP3
+       ============================================================ -->
     <block id="tp3_title_tag">
-        <text lang="fr">TP3 — RDF et Corese — PRENOM NOM</text>
-        <text lang="en">Lab 3 — RDF and Corese — FIRSTNAME LASTNAME</text>
-        <text lang="ar">العمل التطبيقي 3 — RDF و Corese — PRENOM NOM</text>
+        <text lang="fr">TP3 — RDF et Corese — Sarah KAFIZ</text>
+        <text lang="en">Lab 3 — RDF and Corese — Sarah KAFIZ</text>
+        <text lang="ar">العمل التطبيقي 3 — RDF و Corese — صارة كافيز </text>
     </block>
     <block id="tp3_h1">
         <text lang="fr">TP3 — RDF et Corese</text>
@@ -635,29 +672,63 @@
         <text lang="ar">العمل التطبيقي 3 — RDF و Corese</text>
     </block>
     <block id="tp3_intro">
-        <text lang="fr">Ce TP est consacré à la modélisation de données en RDF et à leur interrogation avec le moteur Corese et le langage SPARQL, en reprenant l'univers de « La compagnie des glaces » déjà utilisé au TP1.</text>
-        <text lang="en">This lab focuses on RDF data modeling and querying with the Corese engine and SPARQL, reusing the "La compagnie des glaces" universe already used in Lab 1.</text>
-        <text lang="ar">يركز هذا العمل التطبيقي على نمذجة البيانات بصيغة RDF واستجوابها باستخدام محرك Corese ولغة SPARQL، باستخدام عالم «La compagnie des glaces» المستخدم في العمل التطبيقي 1.</text>
+        <text lang="fr">Ce TP m'a fait passer du XML « plat » du TP1 à une vraie modélisation sémantique : définir un vocabulaire RDFS, écrire des données RDF qui s'appuient sur ce vocabulaire, puis interroger l'ensemble avec SPARQL dans le moteur Corese — en redécouvrant l'univers de « La compagnie des glaces » sous un angle complètement différent.</text>
+        <text lang="en">This lab took me from the "flat" XML of Lab 1 to real semantic modeling: defining an RDFS vocabulary, writing RDF data built on that vocabulary, then querying everything with SPARQL in the Corese engine — rediscovering the "La compagnie des glaces" universe from a completely different angle.</text>
+        <text lang="ar">جعلني هذا العمل التطبيقي أنتقل من XML «المسطّح» في العمل التطبيقي 1 إلى نمذجة دلالية حقيقية: تعريف مفردات RDFS، كتابة بيانات RDF تستند إلى هذه المفردات، ثم استجواب كل ذلك باستخدام SPARQL في محرك Corese — مع إعادة اكتشاف عالم «La compagnie des glaces» من زاوية مختلفة تمامًا.</text>
     </block>
-    <block id="tp3_section_modele">
-        <text lang="fr">1. Modélisation RDF</text>
-        <text lang="en">1. RDF modeling</text>
-        <text lang="ar">1. نمذجة RDF</text>
+    <block id="tp3_wiki_label">
+        <text lang="fr">Le wiki de description de travail de ce TP se trouve ici :</text>
+        <text lang="en">The wiki describing the work for this lab can be found here:</text>
+        <text lang="ar">يوجد ويكي وصف العمل لهذا العمل التطبيقي هنا:</text>
     </block>
-    <block id="tp3_section_modele_text">
-        <text lang="fr">J'ai traduit en triplets RDF les informations sur les albums, l'auteur et les personnages de la série (titre, numéro de tome, auteur, description), en choisissant un vocabulaire adapté (schema.org, FOAF) plutôt que d'inventer mes propres propriétés.</text>
-        <text lang="en">I translated information about the volumes, the author, and the characters of the series (title, volume number, author, description) into RDF triples, choosing a suitable vocabulary (schema.org, FOAF) rather than inventing my own properties.</text>
-        <text lang="ar">قمت بترجمة معلومات الألبومات والمؤلف وشخصيات السلسلة (العنوان، رقم الجزء، المؤلف، الوصف) إلى ثلاثيات RDF، باختيار مفردات مناسبة (schema.org، FOAF) بدلاً من ابتكار خصائص خاصة بي.</text>
+    <block id="tp3_wiki_link">
+        <text lang="fr">Wiki du groupe — TP3</text>
+        <text lang="en">Group wiki — Lab 3</text>
+        <text lang="ar">ويكي الفريق — العمل التطبيقي 3</text>
     </block>
-    <block id="tp3_section_corese">
-        <text lang="fr">2. Interrogation avec Corese</text>
-        <text lang="en">2. Querying with Corese</text>
-        <text lang="ar">2. الاستعلام باستخدام Corese</text>
+    
+    <block id="tp3_section_rdfs">
+        <text lang="fr">1. Le vocabulaire RDFS</text>
+        <text lang="en">1. The RDFS vocabulary</text>
+        <text lang="ar">1. مفردات RDFS</text>
     </block>
-    <block id="tp3_section_corese_text">
-        <text lang="fr">J'ai chargé mon modèle RDF dans le moteur Corese (version standalone) et écrit plusieurs requêtes SPARQL pour retrouver les albums d'un auteur donné, compter les tomes d'une série, ou filtrer les albums par mot-clé dans leur description.</text>
-        <text lang="en">I loaded my RDF model into the Corese engine (standalone version) and wrote several SPARQL queries to retrieve the volumes of a given author, count the volumes in a series, or filter volumes by keyword in their description.</text>
-        <text lang="ar">حمّلت نموذجي RDF في محرك Corese (النسخة المستقلة) وكتبت عدة استعلامات SPARQL لاسترجاع ألبومات مؤلف معين، عد أجزاء سلسلة، أو تصفية الألبومات بحسب كلمة مفتاحية في وصفها.</text>
+    <block id="tp3_ex_rdfs_text">
+        <text lang="fr">Avant d'écrire la moindre donnée, j'ai dû définir ce qui existe dans notre petite ontologie : une super-classe Oeuvre, dont héritent Saga, Integrale et Tome via rdfs:subClassOf, plus une classe Auteur indépendante. J'ai ensuite déclaré les propriétés qui relient ces classes entre elles (aPourAuteur, aPourIntegrale, contientTome, chacune avec un domain et un range précis) et celles qui portent une valeur littérale (titre, numero, resume, theme, nom). Ce qui m'a le plus marquée, c'est de comprendre que titre n'a besoin d'être déclaré qu'une seule fois, sur Oeuvre : Saga, Integrale et Tome en héritent automatiquement grâce à rdfs:subClassOf, sans qu'on ait à le répéter pour chacun.</text>
+        <text lang="en">Before writing any data at all, I had to define what exists in our small ontology: a superclass Oeuvre, inherited by Saga, Integrale and Tome via rdfs:subClassOf, plus an independent Auteur class. I then declared the properties linking these classes together (aPourAuteur, aPourIntegrale, contientTome, each with a precise domain and range) and those carrying a literal value (titre, numero, resume, theme, nom). What struck me most was understanding that titre only needs to be declared once, on Oeuvre: Saga, Integrale and Tome inherit it automatically through rdfs:subClassOf, without having to repeat it for each one.</text>
+        <text lang="ar">قبل كتابة أي بيانات على الإطلاق، كان عليّ تحديد ما يوجد في أنطولوجيتنا الصغيرة: صنف أعلى Oeuvre، ترثه Saga و Integrale و Tome عبر rdfs:subClassOf، بالإضافة إلى صنف مستقل Auteur. ثم حدّدت الخصائص التي تربط هذه الأصناف ببعضها (aPourAuteur، aPourIntegrale، contientTome، كل واحدة منها بـ domain و range محددين) وتلك التي تحمل قيمة حرفية (titre، numero، resume، theme، nom). ما أثار انتباهي أكثر هو فهم أن titre يحتاج إلى التصريح عنه مرة واحدة فقط، على Oeuvre: ترثه Saga و Integrale و Tome تلقائيًا بفضل rdfs:subClassOf، دون الحاجة لتكراره لكل واحد منها.</text>
+    </block>
+    
+    <block id="tp3_section_rdf">
+        <text lang="fr">2. Les données RDF</text>
+        <text lang="en">2. The RDF data</text>
+        <text lang="ar">2. بيانات RDF</text>
+    </block>
+    <block id="tp3_ex_rdf_text">
+        <text lang="fr">Une fois le vocabulaire posé, j'ai décrit les vraies données : Georges-Jean Arnaud comme cdg:Auteur, la saga « La compagnie des glaces » avec ses 16 intégrales, et chaque intégrale reliée à ses tomes (63 en tout) via contientTome. J'ai dû faire attention à une distinction simple mais facile à oublier : rdf:resource pour pointer vers une autre ressource (un lien), et le texte directement entre les balises pour une valeur littérale comme un titre ou un nom. Voir mes propres données s'organiser selon le schéma que j'avais défini juste avant a rendu très concret ce qui me semblait abstrait en cours : un graphe RDF, ce n'est jamais qu'un ensemble de petites phrases sujet-prédicat-objet.</text>
+        <text lang="en">Once the vocabulary was set, I described the actual data: Georges-Jean Arnaud as cdg:Auteur, the "La compagnie des glaces" saga with its 16 "Intégrale" volumes, and each volume linked to its books (63 in total) via contientTome. I had to pay attention to a simple but easily forgotten distinction: rdf:resource to point to another resource (a link), and plain text between tags for a literal value like a title or a name. Watching my own data organize itself according to the schema I had just defined made something that felt abstract in class very concrete: an RDF graph is really just a collection of small subject-predicate-object sentences.</text>
+        <text lang="ar">بعد تحديد المفردات، وصفت البيانات الحقيقية: جورج-جان أرنو كـ cdg:Auteur، وسلسلة «La compagnie des glaces» بمجلداتها الستة عشر «Intégrale»، وكل مجلد مرتبط بكتبه (63 في المجموع) عبر contientTome. كان عليّ الانتباه إلى تمييز بسيط ولكن يسهل نسيانه: rdf:resource للإشارة إلى مورد آخر (رابط)، والنص مباشرة بين الوسوم لقيمة حرفية مثل عنوان أو اسم. رؤية بياناتي الخاصة تنتظم وفق المخطط الذي حددته للتو جعل ما كان يبدو لي مجرّدًا في الدروس ملموسًا جدًا: الرسم البياني RDF ليس في النهاية إلا مجموعة من الجمل الصغيرة فاعل-فعل-مفعول.</text>
+    </block>
+    
+    <block id="tp3_section_sparql">
+        <text lang="fr">3. Interroger en SPARQL avec Corese</text>
+        <text lang="en">3. Querying with SPARQL in Corese</text>
+        <text lang="ar">3. الاستعلام باستخدام SPARQL في Corese</text>
+    </block>
+    <block id="tp3_ex_sparql_text">
+        <text lang="fr">Une fois les deux fichiers (le RDFS et le RDF) chargés ensemble dans Corese, j'ai vérifié que tout était bien chargé avec une requête de comptage global (SELECT COUNT(*) WHERE { ?s ?p ?o }), avant d'écrire des requêtes plus précises : lister les 16 intégrales triées par numéro, retrouver les tomes d'une intégrale donnée en suivant la propriété contientTome, ou encore compter les tomes par intégrale avec GROUP BY et COUNT. Cet exercice m'a fait comprendre que SPARQL ressemble beaucoup à du SQL dans sa logique (SELECT, WHERE, GROUP BY, ORDER BY), mais que sa vraie force est de naviguer un graphe en suivant des propriétés d'une ressource à l'autre, plutôt que de joindre des tables.</text>
+        <text lang="en">Once both files (the RDFS and the RDF) were loaded together in Corese, I checked everything had loaded correctly with a global count query (SELECT COUNT(*) WHERE { ?s ?p ?o }), before writing more specific queries: listing the 16 "Intégrale" volumes sorted by number, retrieving the books of a given volume by following the contientTome property, or counting books per volume with GROUP BY and COUNT. This exercise made me realize SPARQL looks a lot like SQL in its logic (SELECT, WHERE, GROUP BY, ORDER BY), but its real strength lies in navigating a graph by following properties from one resource to another, rather than joining tables.</text>
+        <text lang="ar">بعد تحميل الملفين معًا (RDFS و RDF) في Corese، تحققت من أن كل شيء تم تحميله بشكل صحيح باستخدام استعلام عد شامل (SELECT COUNT(*) WHERE { ?s ?p ?o })، قبل كتابة استعلامات أكثر دقة: سرد المجلدات الستة عشر «Intégrale» مرتبة بحسب الرقم، استرجاع كتب مجلد معين بتتبع خاصية contientTome، أو عد الكتب لكل مجلد باستخدام GROUP BY و COUNT. جعلني هذا التمرين أدرك أن SPARQL يشبه كثيرًا SQL في منطقه (SELECT، WHERE، GROUP BY، ORDER BY)، لكن قوته الحقيقية تكمن في التنقل في رسم بياني بتتبع خصائص من مورد إلى آخر، بدلاً من ربط الجداول.</text>
+    </block>
+    
+    <block id="tp3_section_inference">
+        <text lang="fr">4. La preuve de l'inférence RDFS</text>
+        <text lang="en">4. Proof of RDFS inference</text>
+        <text lang="ar">4. دليل استدلال RDFS</text>
+    </block>
+    <block id="tp3_ex_inference_text">
+        <text lang="fr">C'est le résultat le plus impressionnant du TP. Nulle part dans le fichier RDF nous n'avons écrit qu'un tome ou une intégrale était une cdg:Oeuvre — pourtant la requête SELECT COUNT(?x) WHERE { ?x a cdg:Oeuvre } renvoie 80, soit exactement 1 saga + 16 intégrales + 63 tomes. C'est Corese qui déduit ce résultat tout seul, grâce au rdfs:subClassOf défini dans le schéma : il sait que toute Saga, Integrale ou Tome est aussi une Oeuvre, sans qu'on l'ait écrit explicitement nulle part dans les données. C'est exactement ce qui distingue le RDFS d'un simple fichier XML : le schéma ne décrit pas seulement la forme des données, il permet au moteur de raisonner sur elles.</text>
+        <text lang="en">This is the most impressive result of the lab. Nowhere in the RDF file did we write that a book or a volume was a cdg:Oeuvre — yet the query SELECT COUNT(?x) WHERE { ?x a cdg:Oeuvre } returns 80, exactly 1 saga + 16 volumes + 63 books. Corese deduces this result entirely on its own, thanks to the rdfs:subClassOf defined in the schema: it knows that any Saga, Integrale or Tome is also an Oeuvre, without it being written explicitly anywhere in the data. This is exactly what sets RDFS apart from a plain XML file: the schema doesn't just describe the shape of the data, it lets the engine reason about it.</text>
+        <text lang="ar">هذه أكثر نتيجة مثيرة للإعجاب في العمل التطبيقي. لم نكتب في أي مكان في ملف RDF أن كتابًا أو مجلدًا هو cdg:Oeuvre — ومع ذلك يُرجع الاستعلام SELECT COUNT(?x) WHERE { ?x a cdg:Oeuvre } القيمة 80، أي 1 سلسلة + 16 مجلدًا + 63 كتابًا بالضبط. يستنتج Corese هذه النتيجة بمفرده تمامًا، بفضل rdfs:subClassOf المحدد في المخطط: فهو يعرف أن كل Saga أو Integrale أو Tome هي أيضًا Oeuvre، دون أن يُكتب ذلك صراحة في أي مكان في البيانات. هذا هو بالضبط ما يميّز RDFS عن ملف XML بسيط: المخطط لا يصف فقط شكل البيانات، بل يسمح للمحرك بالاستدلال عليها.</text>
     </block>
 
     <!--Page TP4-->
