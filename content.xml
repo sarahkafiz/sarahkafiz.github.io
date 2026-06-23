@@ -791,9 +791,9 @@
 
     <!-- PAge TP5-->
     <block id="tp5_title_tag">
-        <text lang="fr">TP5 — RDFa — PRENOM NOM</text>
-        <text lang="en">Lab 5 — RDFa — FIRSTNAME LASTNAME</text>
-        <text lang="ar">العمل التطبيقي 5 — RDFa — PRENOM NOM</text>
+        <text lang="fr">TP5 — RDFa — Sarah KAFIZ</text>
+        <text lang="en">Lab 5 — RDFa — Sarah KAFIZ</text>
+        <text lang="ar">العمل التطبيقي 5 — RDFa — صارة كافيز</text>
     </block>
     <block id="tp5_h1">
         <text lang="fr">TP5 — Annotations RDFa</text>
@@ -801,36 +801,49 @@
         <text lang="ar">العمل التطبيقي 5 — تعليقات RDFa</text>
     </block>
     <block id="tp5_intro">
-        <text lang="fr">Ce TP individuel demande d'enrichir mon portfolio avec des annotations RDFa, en utilisant au minimum les vocabulaires Dublin Core et FOAF, afin qu'un outil comme OpenLink Structured Data Sniffer puisse en extraire des triplets RDF.</text>
-        <text lang="en">This individual lab required enriching my portfolio with RDFa annotations, using at least the Dublin Core and FOAF vocabularies, so that a tool like OpenLink Structured Data Sniffer can extract RDF triples from it.</text>
-        <text lang="ar">يتطلب هذا العمل التطبيقي الفردي إغناء بورتفوليو بتعليقات RDFa، باستخدام مفردات Dublin Core و FOAF على الأقل، حتى تتمكن أداة مثل OpenLink Structured Data Sniffer من استخراج ثلاثيات RDF منه.</text>
+        <text lang="fr">Ce TP individuel demande d'annoter sémantiquement une page de mon portfolio avec RDFa, pour qu'un robot puisse en extraire automatiquement des triplets RDF sans parser le texte.</text>
+        <text lang="en">This individual lab required semantically annotating a page of my portfolio with RDFa, so that a robot could automatically extract RDF triples from it without parsing the text.</text>
+        <text lang="ar">يتطلب هذا العمل التطبيقي الفردي إضافة تعليقات دلالية بصيغة RDFa لصفحة من بورتفوليو، حتى يتمكن روبوت من استخراج ثلاثيات RDF منها تلقائيًا دون تحليل النص.</text>
     </block>
+    <block id="tp5_wiki_label">
+        <text lang="fr">Le wiki de description de travail de ce TP se trouve ici :</text>
+        <text lang="en">The wiki describing the work for this lab can be found here:</text>
+        <text lang="ar">يوجد ويكي وصف العمل لهذا العمل التطبيقي هنا:</text>
+    </block>
+    <block id="tp5_wiki_link">
+        <text lang="fr">Wiki du groupe — TP5</text>
+        <text lang="en">Group wiki — Lab 5</text>
+        <text lang="ar">ويكي الفريق — العمل التطبيقي 5</text>
+    </block>
+    
     <block id="tp5_section_choix">
         <text lang="fr">1. Choix d'implémentation</text>
         <text lang="en">1. Implementation choice</text>
         <text lang="ar">1. خيار التنفيذ</text>
     </block>
     <block id="tp5_section_choix_text">
-        <text lang="fr">Plutôt que de limiter le RDFa à une seule page de démonstration, j'ai choisi de l'intégrer sur l'ensemble de mon portfolio (Accueil, CV, Travaux), en combinant Dublin Core, FOAF et schema.org. Sur l'accueil, je m'identifie comme une foaf:Person ; sur le CV, chaque poste et chaque formation deviennent des ressources schema:WorkExperience / schema:EducationalOccupationalCredential ; sur la page Travaux, chaque module est un schema:Course et chaque TP un schema:LearningResource.</text>
-        <text lang="en">Rather than limiting RDFa to a single demonstration page, I chose to integrate it across my entire portfolio (Home, Resume, Projects), combining Dublin Core, FOAF, and schema.org. On the homepage, I identify myself as a foaf:Person; on the resume, each position and qualification becomes a schema:WorkExperience / schema:EducationalOccupationalCredential resource; on the Projects page, each module is a schema:Course and each lab a schema:LearningResource.</text>
-        <text lang="ar">بدلاً من حصر RDFa في صفحة عرض واحدة، اخترت إدماجه في كافة بورتفوليو (الرئيسية، السيرة الذاتية، الأعمال)، بالجمع بين Dublin Core و FOAF و schema.org. في الصفحة الرئيسية، أعرّف عن نفسي كـ foaf:Person؛ في السيرة الذاتية، تصبح كل وظيفة وكل شهادة موردًا من نوع schema:WorkExperience / schema:EducationalOccupationalCredential؛ في صفحة الأعمال، كل وحدة هي schema:Course وكل عمل تطبيقي هو schema:LearningResource.</text>
+        <text lang="fr">On est reparti du fichier tp1_exo2.xhtml (la page des albums de « La compagnie des glaces ») en gardant tout le contenu, et on a ajouté les annotations RDFa par-dessus avec des vocabulaires existants plutôt que d'en inventer un : foaf: pour le nom des personnes et les couvertures, dbo: pour typer les personnages (dbo:FictionalCharacter) et relier la saga à son auteur (dbo:author), et un préfixe cdg: propre à la saga pour ce qui n'existe nulle part ailleurs (cdg:Integrale, cdg:contientTome, cdg:contientPersonnage, et les relations entre personnages comme allié, ennemi, père, fils). Pour éviter la redondance, chaque personnage n'est décrit en entier qu'à sa première apparition ; les suivantes ne sont qu'une référence vers la même ressource.</text>
+        <text lang="en">We started from the tp1_exo2.xhtml file (the "La compagnie des glaces" volumes page), keeping all the content, and added RDFa annotations on top using existing vocabularies rather than inventing one: foaf: for people's names and cover images, dbo: to type the characters (dbo:FictionalCharacter) and link the saga to its author (dbo:author), and a saga-specific cdg: prefix for what doesn't exist anywhere else (cdg:Integrale, cdg:contientTome, cdg:contientPersonnage, and relations between characters such as ally, enemy, father, son). To avoid redundancy, each character is fully described only on its first appearance; later appearances are just a reference to the same resource.</text>
+        <text lang="ar">انطلقنا من ملف tp1_exo2.xhtml (صفحة ألبومات «La compagnie des glaces») مع الاحتفاظ بكل المحتوى، وأضفنا تعليقات RDFa فوقه باستخدام مفردات موجودة بدلاً من ابتكار مفردات جديدة: foaf: لأسماء الأشخاص وصور الأغلفة، dbo: لتصنيف الشخصيات (dbo:FictionalCharacter) ولربط السلسلة بمؤلفها (dbo:author)، وبادئة cdg: خاصة بالسلسلة لما لا يوجد في أي مكان آخر (cdg:Integrale، cdg:contientTome، cdg:contientPersonnage، والعلاقات بين الشخصيات مثل حليف، عدو، أب، ابن). لتجنب التكرار، يُوصف كل شخصية بالكامل فقط في ظهورها الأول؛ أما الظهورات اللاحقة فهي مجرد إحالة إلى المورد نفسه.</text>
     </block>
+    
     <block id="tp5_section_validation">
         <text lang="fr">2. Validation</text>
         <text lang="en">2. Validation</text>
         <text lang="ar">2. التحقق</text>
     </block>
     <block id="tp5_section_validation_text">
-        <text lang="fr">J'ai vérifié l'extraction des triplets avec l'extension Firefox OpenLink Structured Data Sniffer et avec le RDFa Distiller du W3C, sur chacune des pages du site.</text>
-        <text lang="en">I checked the triple extraction with the Firefox extension OpenLink Structured Data Sniffer and with the W3C RDFa Distiller, on each page of the site.</text>
-        <text lang="ar">تحققت من استخراج الثلاثيات باستخدام امتداد Firefox OpenLink Structured Data Sniffer وأداة RDFa Distiller من W3C، في كل صفحات الموقع.</text>
+        <text lang="fr">On a vérifié l'extraction des triplets avec l'extension Firefox OpenLink Structured Data Sniffer, qui affiche directement les annotations RDFa détectées sur la page. Chaque Intégrale, Tome et Personnage apparaît bien comme une ressource typée et reliée aux autres, ce qui permet d'extraire le graphe complet en triplets RDF sans toucher au texte visible de la page.</text>
+        <text lang="en">We checked the triple extraction with the Firefox extension OpenLink Structured Data Sniffer, which directly displays the RDFa annotations detected on the page. Each Volume, Book and Character correctly appears as a typed resource linked to the others, allowing the full graph to be extracted as RDF triples without touching the page's visible text.</text>
+        <text lang="ar">تحققنا من استخراج الثلاثيات باستخدام امتداد Firefox OpenLink Structured Data Sniffer، الذي يعرض مباشرة تعليقات RDFa المكتشفة في الصفحة. يظهر كل مجلد وكتاب وشخصية بشكل صحيح كمورد مصنّف ومرتبط بالآخرين، مما يسمح باستخراج الرسم البياني الكامل في صورة ثلاثيات RDF دون لمس النص الظاهر في الصفحة.</text>
     </block>
+ 
 
     <!-- Page competences-->
     <block id="competences_title_tag">
-        <text lang="fr">Compétences techniques — PRENOM NOM</text>
-        <text lang="en">Technical Skills — FIRSTNAME LASTNAME</text>
-        <text lang="ar">المهارات التقنية — PRENOM NOM</text>
+        <text lang="fr">Compétences techniques — Sarah KAFIZ</text>
+        <text lang="en">Technical Skills — Sarah KAFIZ</text>
+        <text lang="ar">المهارات التقنية — صارة كافيز</text>
     </block>
     <block id="competences_h1">
         <text lang="fr">Compétences en Web sémantique</text>
