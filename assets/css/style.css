@@ -29,7 +29,7 @@ header.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6rem 8rem 1.6rem 3rem;
+  padding: 1.6rem 3rem;
   border-bottom: 1px solid var(--color-line);
   flex-wrap: wrap;
   gap: 1rem;
@@ -50,6 +50,7 @@ header.site-header .brand {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 nav.main-nav a {
@@ -60,6 +61,7 @@ nav.main-nav a {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: color 0.15s ease;
+  white-space: nowrap;
 }
 
 nav.main-nav a:first-child {
@@ -73,11 +75,8 @@ nav.main-nav a.current {
 
 /* Sélecteur de langue  */
 #lang-switcher {
-  position: fixed;
-  top: 1.4rem;
-  right: 1.6rem;
-  z-index: 999;
   width: 9rem;
+  flex-shrink: 0;
 }
 
 #lang-switcher select {
