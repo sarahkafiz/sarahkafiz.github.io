@@ -18,21 +18,22 @@
 </head>
 <body typeof="schema:Course" resource="#module-ws">
 
-    <div id="lang-switcher">
-        <select aria-label="Choisir la langue">
-        <option value="fr">Français</option>
-        <option value="en">English</option>
-        <option value="ar">العربية</option>
-        </select>
-    </div>
-
     <header class="site-header">
         <a class="brand" href="index.html" data-i18n="home_name">Sarah KAFIZ</a>
-        <nav class="main-nav">
-        <a href="index.html" data-i18n="nav_accueil">Accueil</a>
-        <a href="cv.html" data-i18n="nav_cv">CV</a>
-        <a href="travaux.html" class="current" data-i18n="nav_travaux">Travaux</a>
-        </nav>
+        <div class="header-right">
+            <nav class="main-nav">
+                <a href="index.html" data-i18n="nav_accueil">Accueil</a>
+                <a href="cv.html" class="current" data-i18n="nav_cv">CV</a>
+                <a href="travaux.html" data-i18n="nav_travaux">Travaux</a>
+            </nav>
+            <div id="lang-switcher">
+                <select aria-label="Choisir la langue">
+                <option value="fr">Français</option>
+                <option value="en">English</option>
+                <option value="ar">العربية</option>
+                </select>
+            </div>
+        </div>
     </header>
 
     <main>
