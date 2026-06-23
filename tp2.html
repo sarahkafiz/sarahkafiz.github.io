@@ -8,55 +8,69 @@
               foaf: http://xmlns.com/foaf/0.1/
               schema: https://schema.org/">
 <head>
-    <meta charset="UTF-8" />
-    <title property="dc:title" data-i18n="tp2_title_tag">TP2 — Unicode et XSLT — Sarah KAFIZ</title>
-    <meta property="dc:creator" content="PRENOM NOM" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="assets/js/site.js" defer="defer"></script>
+  <meta charset="UTF-8" />
+  <title property="dc:title" data-i18n="tp2_title_tag">TP2 — Unicode et XSLT — Sarah KAFIZ</title>
+  <meta property="dc:creator" content="PRENOM NOM" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/site.js" defer="defer"></script>
 </head>
 <body typeof="schema:LearningResource" resource="#tp2">
 
-    <header class="site-header">
-        <a class="brand" href="index.html" data-i18n="home_name">Sarah KAFIZ</a>
-        <div class="header-right">
-            <nav class="main-nav">
-                <a href="index.html" data-i18n="nav_accueil">Accueil</a>
-                <a href="cv.html" class="current" data-i18n="nav_cv">CV</a>
-                <a href="travaux.html" data-i18n="nav_travaux">Travaux</a>
-            </nav>
-            <div id="lang-switcher">
-                <select aria-label="Choisir la langue">
-                <option value="fr">Français</option>
-                <option value="en">English</option>
-                <option value="ar">العربية</option>
-                </select>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="intro-block">
-        <p class="contact-line"><a href="travaux-web-semantique.html" data-i18n="ws_back_link">← Travaux</a></p>
-        <h1 property="schema:name dc:title" data-i18n="tp2_h1">TP2 — Unicode et XSLT</h1>
-        <p data-i18n="tp2_intro" property="schema:description dc:description">
-            Introduction du TP2.
-        </p>
-        </div>
+  <header class="site-header">
+    <a class="brand" href="index.html" data-i18n="home_name">Sarah KAFIZ</a>
+    <div class="header-right">
+      <nav class="main-nav">
+        <a href="index.html" data-i18n="nav_accueil">Accueil</a>
+        <a href="cv.html" data-i18n="nav_cv">CV</a>
+        <a href="travaux.html" class="current" data-i18n="nav_travaux">Travaux</a>
+      </nav>
+      <div id="lang-switcher">
+        <select aria-label="Choisir la langue">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+        </select>
+      </div>
+    </div>
+  </header>
 
-        <h2 data-i18n="tp2_section_schema">1. DTD et XML Schema</h2>
-        <p data-i18n="tp2_section_schema_text">Texte.</p>
+  <main>
+    <div class="intro-block">
+      <p class="contact-line"><a href="travaux-web-semantique.html" data-i18n="ws_back_link">← Travaux</a></p>
+      <h1 property="schema:name dc:title" data-i18n="tp2_h1">TP2 — Unicode et XSLT</h1>
+      <p data-i18n="tp2_intro" property="schema:description dc:description">
+        Introduction du TP2.
+      </p>
+      <p class="contact-line">
+        <span data-i18n="tp2_wiki_label">Le wiki de description de travail de ce TP se trouve ici :</span>
+        <a href="https://portail-jn.fr/Portail_/claroline/wiki/page.php?wikiId=21&amp;action=show&amp;gidReset=true&amp;cidReset=true&amp;cidReq=WSAIR2_2526&amp;gidReq=1"
+           target="_blank" rel="noopener" data-i18n="tp2_wiki_link">
+          Wiki du groupe — TP2
+        </a>
+      </p>
+    </div>
 
-        <h2 data-i18n="tp2_section_xslt">2. Transformation XSLT</h2>
-        <p data-i18n="tp2_section_xslt_text">Texte.</p>
+    <h2 data-i18n="tp2_section_ex1">1. Exercice 1 — DTD et XML Schema pour enseignants.xml</h2>
+    <p data-i18n="tp2_ex1_text">Texte.</p>
 
-        <h2 data-i18n="tp2_section_tmx">3. Documents multilingues (TMX)</h2>
-        <p data-i18n="tp2_section_tmx_text">Texte.</p>
-    </main>
+    <h2 data-i18n="tp2_section_ex2">2. Exercice 2 — Schéma XML avec contraintes de clé</h2>
+    <p data-i18n="tp2_ex2_text">Texte.</p>
 
-    <footer>
-        <p data-i18n="footer_text">Portfolio — FR / EN / AR</p>
-    </footer>
+    <h2 data-i18n="tp2_section_ex3">3. Exercice 3 — Transformation XSLT d'un tableau</h2>
+    <p data-i18n="tp2_ex3_text">Texte.</p>
+
+    <h2 data-i18n="tp2_section_ex4">4. Exercice 4 — Présentation d'un flux RSS</h2>
+    <p data-i18n="tp2_ex4_text">Texte.</p>
+
+    <h2 data-i18n="tp2_section_ex5">5. Exercice 5 — Visualisation de textes multilingues (TMX)</h2>
+    <p data-i18n="tp2_ex5_text">Texte.</p>
+  </main>
+
+  <footer>
+    <p data-i18n="footer_text">Portfolio — FR / EN / AR</p>
+  </footer>
 
 </body>
 </html>
