@@ -837,6 +837,7 @@
         <text lang="en">We checked the triple extraction with the Firefox extension OpenLink Structured Data Sniffer, which directly displays the RDFa annotations detected on the page. Each Volume, Book and Character correctly appears as a typed resource linked to the others, allowing the full graph to be extracted as RDF triples without touching the page's visible text.</text>
         <text lang="ar">تحققنا من استخراج الثلاثيات باستخدام امتداد Firefox OpenLink Structured Data Sniffer، الذي يعرض مباشرة تعليقات RDFa المكتشفة في الصفحة. يظهر كل مجلد وكتاب وشخصية بشكل صحيح كمورد مصنّف ومرتبط بالآخرين، مما يسمح باستخراج الرسم البياني الكامل في صورة ثلاثيات RDF دون لمس النص الظاهر في الصفحة.</text>
     </block>
+
  
 
     <!-- Page competences-->
